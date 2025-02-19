@@ -28,8 +28,7 @@ jobs:
           if [ -d "${GITHUB_WORKSPACE}/.github/gh-pages/history/" ]; then
             sudo cp -R ${GITHUB_WORKSPACE}/.github/gh-pages/history/* allure-results/history/
           else
-            echo "Directory ${GITHUB_WORKSPACE}/.github/gh-pages/history/ does not exist. Creating it."
-            sudo mkdir -p ${GITHUB_WORKSPACE}/.github/gh-pages/history/
+            echo "Directory ${GITHUB_WORKSPACE}/.github/gh-pages/history/ does not exist. Skipping copy."
           fi
 
       - name: Generate Allure report
@@ -39,6 +38,7 @@ jobs:
       - name: Update Allure history
         run: |
           if [ -d "allure-report/history/" ]; then
+            sudo mkdir -p ${GITHUB_WORKSPACE}/.github/gh-pages/history/
             sudo cp -R allure-report/history/* ${GITHUB_WORKSPACE}/.github/gh-pages/history/
           else
             echo "Directory allure-report/history/ does not exist. Skipping copy."
