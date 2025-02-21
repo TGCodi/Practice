@@ -1,7 +1,7 @@
 allure-pytest==2.13.5
 allure-python-commons==2.13.5
 pytest==8.3.4
-selenium==4.28.1
+selenium==4.21.0
 attrs==25.1.0
 certifi==2025.1.31
 charset-normalizer==3.4.1
@@ -25,6 +25,7 @@ trio==0.29.0
 trio-websocket==0.12.1
 typing_extensions==4.12.2
 urllib3==2.3.0
-webdriver-manager==4.0.2
+webdriver-manager==4.0.1  # Версия, совместимая с ARM
 websocket-client==1.8.0
 wsproto==1.2.0
+chromedriver-binary==114.0.5735.90  # Драйвер для ARM

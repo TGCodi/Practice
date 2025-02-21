@@ -7,19 +7,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
       - name: Checkout (copy) gh-pages repository to GitHub runner
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
           ref: gh-pages
           path: ./.github/gh-pages
-
-      - name: Install Docker Compose
-        run: |
-          sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-          sudo chmod +x /usr/local/bin/docker-compose
-          docker-compose --version
 
       - name: Run UI-tests via docker-compose
         env:
@@ -30,12 +24,8 @@ jobs:
 
       - name: Copy history from gh-pages to allure-results
         run: |
-          sudo mkdir -p allure-results/history
-          if [ -d "${GITHUB_WORKSPACE}/.github/gh-pages/history/" ]; then
-            sudo cp -R ${GITHUB_WORKSPACE}/.github/gh-pages/history/* allure-results/history/
-          else
-            echo "Directory ${GITHUB_WORKSPACE}/.github/gh-pages/history/ does not exist. Skipping copy."
-          fi
+          sudo mkdir -p allure-results/history  # Создает директорию для истории Allure
+          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
 
       - name: Generate Allure report
         run: |
@@ -43,12 +33,7 @@ jobs:
 
       - name: Update Allure history
         run: |
-          if [ -d "allure-report/history/" ]; then
-            sudo mkdir -p ${GITHUB_WORKSPACE}/.github/gh-pages/history/
-            sudo cp -R allure-report/history/* ${GITHUB_WORKSPACE}/.github/gh-pages/history/
-          else
-            echo "Directory allure-report/history/ does not exist. Skipping copy."
-          fi
+          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
