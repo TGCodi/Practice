@@ -1,12 +1,12 @@
 {
-  "uid" : "7699826a435eca4c",
+  "uid" : "9697073975bacc29",
   "name" : "Change name",
   "fullName" : "tests.feature_profile_test.TestProfileFeature#test_open_web",
   "historyId" : "b9ee3a9c05b3f6c11188102a72f45759",
   "time" : {
-    "start" : 1740155774104,
-    "stop" : 1740155776532,
-    "duration" : 2428
+    "start" : 1740156060604,
+    "stop" : 1740156064286,
+    "duration" : 3682
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1740155773368,
-      "stop" : 1740155774103,
-      "duration" : 735
+      "start" : 1740156059872,
+      "stop" : 1740156060603,
+      "duration" : 731
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1740155774103,
-      "stop" : 1740155774103,
+      "start" : 1740156060604,
+      "stop" : 1740156060604,
       "duration" : 0
     },
     "status" : "passed",
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1740155774104,
-        "stop" : 1740155774582,
-        "duration" : 478
+        "start" : 1740156060605,
+        "stop" : 1740156062062,
+        "duration" : 1457
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1740155774582,
-        "stop" : 1740155775637,
-        "duration" : 1055
+        "start" : 1740156062062,
+        "stop" : 1740156063116,
+        "duration" : 1054
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,9 +80,9 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1740155775637,
-        "stop" : 1740155775708,
-        "duration" : 71
+        "start" : 1740156063116,
+        "stop" : 1740156063183,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1740155775708,
-        "stop" : 1740155775751,
-        "duration" : 43
+        "start" : 1740156063183,
+        "stop" : 1740156063224,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
@@ -112,9 +112,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "1ede63897be4f059",
+      "uid" : "8abe7bb3ea54b447",
       "name" : "Success",
-      "source" : "1ede63897be4f059.png",
+      "source" : "8abe7bb3ea54b447.png",
       "type" : "image/png",
       "size" : 10595
     } ],
@@ -127,9 +127,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1740155776534,
-      "stop" : 1740155776591,
-      "duration" : 57
+      "start" : 1740156064287,
+      "stop" : 1740156064343,
+      "duration" : 56
     },
     "status" : "passed",
     "steps" : [ ],
@@ -141,11 +141,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "Critical"
-  }, {
     "name" : "feature",
     "value" : "Profile Functionality"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -160,7 +160,7 @@
     "value" : "TestProfileFeature"
   }, {
     "name" : "host",
-    "value" : "55f47ecd08f4"
+    "value" : "55475365734d"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -185,8 +185,27 @@
     "severity" : "critical",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7699826a435eca4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740155774104,
+          "stop" : 1740155776532,
+          "duration" : 2428
+        }
+      } ]
+    },
     "tags" : [ "smoke" ]
   },
-  "source" : "7699826a435eca4c.json",
+  "source" : "9697073975bacc29.json",
   "parameterValues" : [ ]
 }
