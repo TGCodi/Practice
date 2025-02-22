@@ -1,5 +1,3 @@
-import time
-
 import allure
 from base.base_page import BasePage
 from config.links import Links
@@ -7,9 +5,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import Keys
 
 
-class PersonalPage(BasePage):
+class MyInfoPage(BasePage):
 
-    PAGE_URL = Links.PERSONAL_PAGE
+    PAGE_URL = Links.MYINFO_PAGE
 
     FIRST_NAME_FIELD = ("xpath", "//input[@name='firstName']")
     SAVE_BUTTON = ("xpath", "(//button[@type='submit'])[1]")
