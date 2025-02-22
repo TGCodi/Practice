@@ -17,7 +17,6 @@ RUN apk update
 RUN apk add openjdk11-jre curl tar
 RUN curl -o allure-2.13.8.tgz -Ls https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.8/allure-commandline-2.13.8.tgz
 RUN tar -zxvf allure-2.13.8.tgz -C /opt/
-RUN rm -f /usr/bin/allure
 RUN ln -s /opt/allure-2.13.8/bin/allure /usr/bin/allure
 RUN rm allure-2.13.8.tgz
 
