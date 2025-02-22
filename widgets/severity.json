@@ -1,20 +1,20 @@
 [ {
-  "uid" : "7159b96079786a4b",
+  "uid" : "fd4407124e21b6e0",
   "name" : "Change profile name",
   "time" : {
-    "start" : 1740156050766,
-    "stop" : 1740156059784,
-    "duration" : 9018
+    "start" : 1740218748419,
+    "stop" : 1740218757358,
+    "duration" : 8939
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "9697073975bacc29",
+  "uid" : "768aa6fa749ae268",
   "name" : "Change name",
   "time" : {
-    "start" : 1740156060604,
-    "stop" : 1740156064286,
-    "duration" : 3682
+    "start" : 1740218758177,
+    "stop" : 1740218761504,
+    "duration" : 3327
   },
   "status" : "passed",
   "severity" : "critical"
