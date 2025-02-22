@@ -1,15 +1,20 @@
 import allure
 from base.base_page import BasePage
 from config.links import Links
+from config.locators import DashboardPageLocators
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class DashboardPage(BasePage):
+class DashboardPage(BasePage, DashboardPageLocators):
 
     PAGE_URL = Links.DASHBOARD_PAGE
 
-    MY_INFO_BUTTON = ("xpath", "//span[text()='My Info']")
 
-    @allure.step("Click on 'My Info' link")
+    @allure.step("перейти на страницу 'My Info'")
     def click_my_info_link(self):
         self.wait.until(EC.element_to_be_clickable(self.MY_INFO_BUTTON)).click()
+
+
+    @allure.step("перейти на страницу 'Admin'")
+    def click_admin_link(self):
+        self.wait.until(EC.element_to_be_clickable(self.ADMIN_BUTTON)).click()
