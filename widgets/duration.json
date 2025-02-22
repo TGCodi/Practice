@@ -1,1 +1,81 @@
-[ ]
+[ {
+  "uid" : "aecfce5ad7c0611f",
+  "name" : "Поиск по статусу",
+  "time" : {
+    "start" : 1740257026792,
+    "stop" : 1740257031317,
+    "duration" : 4525
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "76f2e984712d9476",
+  "name" : "Поиск по никнейму",
+  "time" : {
+    "start" : 1740257002783,
+    "stop" : 1740257018470,
+    "duration" : 15687
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c7e7ab45039e66bd",
+  "name" : "Смена обязательных полей",
+  "time" : {
+    "start" : 1740257061197,
+    "stop" : 1740257070230,
+    "duration" : 9033
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ceedc894dd66444a",
+  "name" : "Смена отчества",
+  "time" : {
+    "start" : 1740257051484,
+    "stop" : 1740257060404,
+    "duration" : 8920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e30aec6e2587639",
+  "name" : "Смена фамилии",
+  "time" : {
+    "start" : 1740257041748,
+    "stop" : 1740257050690,
+    "duration" : 8942
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "950b5cfa317aef5c",
+  "name" : "Смена по роле",
+  "time" : {
+    "start" : 1740257019320,
+    "stop" : 1740257025995,
+    "duration" : 6675
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dbcd393ede221a32",
+  "name" : "Change profile name",
+  "time" : {
+    "start" : 1740225991408,
+    "stop" : 1740226001936,
+    "duration" : 10528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dcece774130a160",
+  "name" : "Смена имени",
+  "time" : {
+    "start" : 1740257032110,
+    "stop" : 1740257040958,
+    "duration" : 8848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,253 @@
+{
+  "uid" : "aecfce5ad7c0611f",
+  "name" : "Поиск по статусу",
+  "fullName" : "tests.admin_panel_test.TestAdminPanel#test_search_by_status",
+  "historyId" : "ce93ccc8d62ad7d77a7e1d629e2a6acf",
+  "time" : {
+    "start" : 1740257026792,
+    "stop" : 1740257031317,
+    "duration" : 4525
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: element_to_be_clickable() missing 1 required positional argument: 'mark'",
+  "statusTrace" : "self = <admin_panel_test.TestAdminPanel object at 0x7f3106464a10>\n\n    @allure.title(\"Поиск по статусу\")\n    @allure.severity(\"medium\")\n    @pytest.mark.smoke\n    def test_search_by_status(self):\n        self.login_page.open()\n        self.login_page.enter_login(self.data.LOGIN)\n        self.login_page.enter_password(self.data.PASSWORD)\n        self.login_page.click_submit_button()\n        self.dashboard_page.is_opened()\n        self.dashboard_page.click_admin_link()\n        self.admin_page.is_opened()\n>       self.admin_page.choose_status(2)\n\ntests/admin_panel_test.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.admin_page.AdminPage object at 0x7f31069be9c0>, x = 2\n\n    def choose_status(self, x):\n        with allure.step(f\"Выбор статуса\"):\n>           status = self.wait.until(EC.element_to_be_clickable())\nE           TypeError: element_to_be_clickable() missing 1 required positional argument: 'mark'\n\npages/admin_page.py:35: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1740257026063,
+      "stop" : 1740257026792,
+      "duration" : 729
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1740257026792,
+      "stop" : 1740257026792,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: element_to_be_clickable() missing 1 required positional argument: 'mark'",
+    "statusTrace" : "self = <admin_panel_test.TestAdminPanel object at 0x7f3106464a10>\n\n    @allure.title(\"Поиск по статусу\")\n    @allure.severity(\"medium\")\n    @pytest.mark.smoke\n    def test_search_by_status(self):\n        self.login_page.open()\n        self.login_page.enter_login(self.data.LOGIN)\n        self.login_page.enter_password(self.data.PASSWORD)\n        self.login_page.click_submit_button()\n        self.dashboard_page.is_opened()\n        self.dashboard_page.click_admin_link()\n        self.admin_page.is_opened()\n>       self.admin_page.choose_status(2)\n\ntests/admin_panel_test.py:52: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.admin_page.AdminPage object at 0x7f31069be9c0>, x = 2\n\n    def choose_status(self, x):\n        with allure.step(f\"Выбор статуса\"):\n>           status = self.wait.until(EC.element_to_be_clickable())\nE           TypeError: element_to_be_clickable() missing 1 required positional argument: 'mark'\n\npages/admin_page.py:35: TypeError",
+    "steps" : [ {
+      "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
+      "time" : {
+        "start" : 1740257026792,
+        "stop" : 1740257028001,
+        "duration" : 1209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter login",
+      "time" : {
+        "start" : 1740257028001,
+        "stop" : 1740257029056,
+        "duration" : 1055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'Admin'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password",
+      "time" : {
+        "start" : 1740257029056,
+        "stop" : 1740257029126,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'admin123'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click submit button",
+      "time" : {
+        "start" : 1740257029126,
+        "stop" : 1740257029168,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
+      "time" : {
+        "start" : 1740257029168,
+        "stop" : 1740257029887,
+        "duration" : 719
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "перейти на страницу 'Admin'",
+      "time" : {
+        "start" : 1740257029887,
+        "stop" : 1740257031315,
+        "duration" : 1428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers is opened",
+      "time" : {
+        "start" : 1740257031315,
+        "stop" : 1740257031317,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбор статуса",
+      "time" : {
+        "start" : 1740257031317,
+        "stop" : 1740257031317,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: element_to_be_clickable() missing 1 required positional argument: 'mark'\n",
+      "statusTrace" : "  File \"/usr/workspace/pages/admin_page.py\", line 35, in choose_status\n    status = self.wait.until(EC.element_to_be_clickable())\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1740257031321,
+      "stop" : 1740257031378,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "medium"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Страница 'Админ'"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "admin_panel_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdminPanel"
+  }, {
+    "name" : "host",
+    "value" : "c23690b73d22"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.admin_panel_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "aecfce5ad7c0611f.json",
+  "parameterValues" : [ ]
+}

@@ -1,4 +1,100 @@
 {
+  "ce93ccc8d62ad7d77a7e1d629e2a6acf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aecfce5ad7c0611f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: element_to_be_clickable() missing 1 required positional argument: 'mark'",
+      "time" : {
+        "start" : 1740257026792,
+        "stop" : 1740257031317,
+        "duration" : 4525
+      }
+    } ]
+  },
+  "42de2d817d9d8bc5a61293ef10a6c7cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ceedc894dd66444a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740257051484,
+        "stop" : 1740257060404,
+        "duration" : 8920
+      }
+    } ]
+  },
+  "d0048b03fe4fe77f3fd0600332dce973" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7e7ab45039e66bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740257061197,
+        "stop" : 1740257070230,
+        "duration" : 9033
+      }
+    } ]
+  },
+  "8bdf00a80d975ae70e1c0e34443b5570" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e30aec6e2587639",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740257041748,
+        "stop" : 1740257050690,
+        "duration" : 8942
+      }
+    } ]
+  },
+  "b7f77c84e24a0b6dd0851fd9a379c159" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbcd393ede221a32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740225991408,
+        "stop" : 1740226001936,
+        "duration" : 10528
+      }
+    } ]
+  },
   "42b4a115007c35c622675a0baedb491a" : {
     "statistic" : {
       "failed" : 0,
@@ -39,6 +135,65 @@
         "start" : 1740155765158,
         "stop" : 1740155773279,
         "duration" : 8121
+      }
+    } ]
+  },
+  "dce8f340982f48f097b0c7c8c58765d1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9dcece774130a160",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740257032110,
+        "stop" : 1740257040958,
+        "duration" : 8848
+      }
+    } ]
+  },
+  "38d43a6319fa36f39b2aabb13322140d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "950b5cfa317aef5c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: argument of type 'NoneType' is not iterable",
+      "time" : {
+        "start" : 1740257019320,
+        "stop" : 1740257025995,
+        "duration" : 6675
+      }
+    } ]
+  },
+  "02b3725f51d94dccb6757f23e1bcc508" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76f2e984712d9476",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1740257002783,
+        "stop" : 1740257018470,
+        "duration" : 15687
       }
     } ]
   },
