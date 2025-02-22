@@ -1,35 +1,5 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ {
-    "name" : "Profile Functionality",
-    "children" : [ {
-      "name" : "Change profile name",
-      "uid" : "2d6b9fad4966bfb3",
-      "parentUid" : "bfe6fb5a25b9d3632e34c1e8a59f2830",
-      "status" : "passed",
-      "time" : {
-        "start" : 1740219142377,
-        "stop" : 1740219150496,
-        "duration" : 8119
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Change name",
-      "uid" : "68997a88dfd63d0a",
-      "parentUid" : "bfe6fb5a25b9d3632e34c1e8a59f2830",
-      "status" : "passed",
-      "time" : {
-        "start" : 1740219151309,
-        "stop" : 1740219154113,
-        "duration" : 2804
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "bfe6fb5a25b9d3632e34c1e8a59f2830"
-  } ],
+  "children" : [ ],
   "name" : "behaviors"
 }
