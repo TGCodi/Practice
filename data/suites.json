@@ -8,7 +8,7 @@
         "name" : "TestAdminPanel",
         "children" : [ {
           "name" : "Change profile name",
-          "uid" : "e2d8df31ecae6048",
+          "uid" : "3d204290583d8984",
           "parentUid" : "65cc2b0194563bd105178697d2f1eac5",
           "status" : "passed",
           "time" : {
@@ -33,39 +33,39 @@
         "name" : "TestAdminPanel",
         "children" : [ {
           "name" : "Поиск по никнейму",
-          "uid" : "99c4a71002e3b3dc",
+          "uid" : "3f5965585a27eb27",
           "parentUid" : "12ce711e2cd96b2e2cc73c748291d5b1",
           "status" : "broken",
           "time" : {
-            "start" : 1740317128594,
-            "stop" : 1740317143435,
-            "duration" : 14841
+            "start" : 1740325004711,
+            "stop" : 1740325019686,
+            "duration" : 14975
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Смена по роле",
-          "uid" : "4a9497c30022f08d",
+          "uid" : "64005c4987d6406",
           "parentUid" : "12ce711e2cd96b2e2cc73c748291d5b1",
           "status" : "passed",
           "time" : {
-            "start" : 1740317144297,
-            "stop" : 1740317150225,
-            "duration" : 5928
+            "start" : 1740325020590,
+            "stop" : 1740325026609,
+            "duration" : 6019
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Поиск по статусу",
-          "uid" : "239be7e5555cc58b",
+          "uid" : "f1923d32b585a788",
           "parentUid" : "12ce711e2cd96b2e2cc73c748291d5b1",
-          "status" : "passed",
+          "status" : "broken",
           "time" : {
-            "start" : 1740317151018,
-            "stop" : 1740317156924,
-            "duration" : 5906
+            "start" : 1740325027451,
+            "stop" : 1740325042398,
+            "duration" : 14947
           },
           "flaky" : false,
           "newFailed" : false,
@@ -84,52 +84,52 @@
         "name" : "TestMyInfoPanel",
         "children" : [ {
           "name" : "Смена имени",
-          "uid" : "f9cbe4a0d6ddf79d",
+          "uid" : "ef5aa3a687addc15",
           "parentUid" : "935f6954dd45ae7585842fdff527986b",
           "status" : "passed",
           "time" : {
-            "start" : 1740317157719,
-            "stop" : 1740317165780,
-            "duration" : 8061
+            "start" : 1740325043244,
+            "stop" : 1740325051398,
+            "duration" : 8154
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Смена фамилии",
-          "uid" : "72463091acf3a996",
+          "uid" : "f2e9eef2ccd5026a",
           "parentUid" : "935f6954dd45ae7585842fdff527986b",
           "status" : "passed",
           "time" : {
-            "start" : 1740317166572,
-            "stop" : 1740317174746,
-            "duration" : 8174
+            "start" : 1740325052249,
+            "stop" : 1740325060377,
+            "duration" : 8128
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Смена отчества",
-          "uid" : "bda18f4c0282d93a",
+          "uid" : "405b1a9d7ab93103",
           "parentUid" : "935f6954dd45ae7585842fdff527986b",
           "status" : "passed",
           "time" : {
-            "start" : 1740317175539,
-            "stop" : 1740317183613,
-            "duration" : 8074
+            "start" : 1740325061214,
+            "stop" : 1740325069364,
+            "duration" : 8150
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Смена обязательных полей",
-          "uid" : "7b1f15a52e5fbf3e",
+          "uid" : "482650adced71ce2",
           "parentUid" : "935f6954dd45ae7585842fdff527986b",
           "status" : "passed",
           "time" : {
-            "start" : 1740317184409,
-            "stop" : 1740317192580,
-            "duration" : 8171
+            "start" : 1740325070193,
+            "stop" : 1740325078360,
+            "duration" : 8167
           },
           "flaky" : false,
           "newFailed" : false,

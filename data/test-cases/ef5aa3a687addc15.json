@@ -1,12 +1,12 @@
 {
-  "uid" : "4a9497c30022f08d",
-  "name" : "Смена по роле",
-  "fullName" : "tests.admin_panel_test.TestAdminPanel#test_search_by_role",
-  "historyId" : "38d43a6319fa36f39b2aabb13322140d",
+  "uid" : "ef5aa3a687addc15",
+  "name" : "Смена имени",
+  "fullName" : "tests.myinfo_panel_test.TestMyInfoPanel#test_change_first_name",
+  "historyId" : "dce8f340982f48f097b0c7c8c58765d1",
   "time" : {
-    "start" : 1740317144297,
-    "stop" : 1740317150225,
-    "duration" : 5928
+    "start" : 1740325043244,
+    "stop" : 1740325051398,
+    "duration" : 8154
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1740317143554,
-      "stop" : 1740317144297,
-      "duration" : 743
+      "start" : 1740325042467,
+      "stop" : 1740325043243,
+      "duration" : 776
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1740317144297,
-      "stop" : 1740317144297,
+      "start" : 1740325043244,
+      "stop" : 1740325043244,
       "duration" : 0
     },
     "status" : "passed",
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1740317144297,
-        "stop" : 1740317144808,
-        "duration" : 511
+        "start" : 1740325043244,
+        "stop" : 1740325043796,
+        "duration" : 552
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "Ввод логина",
       "time" : {
-        "start" : 1740317144808,
-        "stop" : 1740317145863,
-        "duration" : 1055
+        "start" : 1740325043796,
+        "stop" : 1740325044862,
+        "duration" : 1066
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,9 +80,9 @@
     }, {
       "name" : "Ввод пароля",
       "time" : {
-        "start" : 1740317145863,
-        "stop" : 1740317145932,
-        "duration" : 69
+        "start" : 1740325044862,
+        "stop" : 1740325044941,
+        "duration" : 79
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Подтвердить вход",
       "time" : {
-        "start" : 1740317145932,
-        "stop" : 1740317145976,
-        "duration" : 44
+        "start" : 1740325044941,
+        "stop" : 1740325044990,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1740317145976,
-        "stop" : 1740317146574,
-        "duration" : 598
+        "start" : 1740325044990,
+        "stop" : 1740325045623,
+        "duration" : 633
       },
       "status" : "passed",
       "steps" : [ ],
@@ -126,11 +126,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "перейти на страницу 'Admin'",
+      "name" : "перейти на страницу 'My Info'",
       "time" : {
-        "start" : 1740317146574,
-        "stop" : 1740317147890,
-        "duration" : 1316
+        "start" : 1740325045623,
+        "stop" : 1740325046951,
+        "duration" : 1328
       },
       "status" : "passed",
       "steps" : [ ],
@@ -141,11 +141,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers is opened",
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7 is opened",
       "time" : {
-        "start" : 1740317147890,
-        "stop" : 1740317147892,
-        "duration" : 2
+        "start" : 1740325046951,
+        "stop" : 1740325046954,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -156,11 +156,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбор роли",
+      "name" : "Смена имени на 'Test 49'",
       "time" : {
-        "start" : 1740317147892,
-        "stop" : 1740317148991,
-        "duration" : 1099
+        "start" : 1740325046954,
+        "stop" : 1740325048064,
+        "duration" : 1110
       },
       "status" : "passed",
       "steps" : [ ],
@@ -171,11 +171,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Клик по кнопке поиска",
+      "name" : "Сохранить изменения",
       "time" : {
-        "start" : 1740317148991,
-        "stop" : 1740317149034,
-        "duration" : 43
+        "start" : 1740325048064,
+        "stop" : 1740325048118,
+        "duration" : 54
       },
       "status" : "passed",
       "steps" : [ ],
@@ -186,11 +186,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверка валидности выдачи роли",
+      "name" : "Проверка сохранения имени",
       "time" : {
-        "start" : 1740317149034,
-        "stop" : 1740317150071,
-        "duration" : 1037
+        "start" : 1740325048118,
+        "stop" : 1740325051210,
+        "duration" : 3092
       },
       "status" : "passed",
       "steps" : [ ],
@@ -202,11 +202,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "f03fde7204f3c4fa",
+      "uid" : "3e327aa0fd4d1f22",
       "name" : "Success",
-      "source" : "f03fde7204f3c4fa.png",
+      "source" : "3e327aa0fd4d1f22.png",
       "type" : "image/png",
-      "size" : 140025
+      "size" : 166587
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -217,9 +217,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1740317150225,
-      "stop" : 1740317150282,
-      "duration" : 57
+      "start" : 1740325051399,
+      "stop" : 1740325051459,
+      "duration" : 60
     },
     "status" : "passed",
     "steps" : [ ],
@@ -232,22 +232,22 @@
   } ],
   "labels" : [ {
     "name" : "severity",
-    "value" : "medium"
+    "value" : "High"
   }, {
     "name" : "parentSuite",
-    "value" : "Страница 'Админ'"
+    "value" : "Страница 'Моё инфо'"
   }, {
     "name" : "tag",
     "value" : "smoke"
   }, {
     "name" : "suite",
-    "value" : "admin_panel_test"
+    "value" : "myinfo_panel_test"
   }, {
     "name" : "subSuite",
-    "value" : "TestAdminPanel"
+    "value" : "TestMyInfoPanel"
   }, {
     "name" : "host",
-    "value" : "eb32cb495fdc"
+    "value" : "8b51caf1849a"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -259,7 +259,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.admin_panel_test"
+    "value" : "tests.myinfo_panel_test"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -275,33 +275,40 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 1,
+        "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
-        "uid" : "3d5ab2ecfa466759",
+        "uid" : "f9cbe4a0d6ddf79d",
         "status" : "passed",
         "time" : {
-          "start" : 1740316822775,
-          "stop" : 1740316829647,
-          "duration" : 6872
+          "start" : 1740317157719,
+          "stop" : 1740317165780,
+          "duration" : 8061
         }
       }, {
-        "uid" : "950b5cfa317aef5c",
-        "status" : "broken",
-        "statusDetails" : "TypeError: argument of type 'NoneType' is not iterable",
+        "uid" : "4a08dc926f017e20",
+        "status" : "passed",
         "time" : {
-          "start" : 1740257019320,
-          "stop" : 1740257025995,
-          "duration" : 6675
+          "start" : 1740316838086,
+          "stop" : 1740316847006,
+          "duration" : 8920
+        }
+      }, {
+        "uid" : "9dcece774130a160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740257032110,
+          "stop" : 1740257040958,
+          "duration" : 8848
         }
       } ]
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "4a9497c30022f08d.json",
+  "source" : "ef5aa3a687addc15.json",
   "parameterValues" : [ ]
 }

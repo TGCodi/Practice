@@ -6,13 +6,26 @@
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "Поиск по никнейму",
-        "uid" : "99c4a71002e3b3dc",
+        "uid" : "3f5965585a27eb27",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1740317128594,
-          "stop" : 1740317143435,
-          "duration" : 14841
+          "start" : 1740325004711,
+          "stop" : 1740325019686,
+          "duration" : 14975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Поиск по статусу",
+        "uid" : "f1923d32b585a788",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1740325027451,
+          "stop" : 1740325042398,
+          "duration" : 14947
         },
         "flaky" : false,
         "newFailed" : false,
