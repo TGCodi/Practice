@@ -7,7 +7,7 @@ from base.base_test import BaseTest
 class TestMyInfoPanel(BaseTest):
 
     @allure.title("Смена имени")
-    @allure.severity("High")
+    @allure.severity("medium")
     @pytest.mark.smoke
     def test_change_first_name(self):
         self.login_page.open()
@@ -23,7 +23,7 @@ class TestMyInfoPanel(BaseTest):
         self.myinfo_page.make_screenshot("Success")
 
     @allure.title("Смена фамилии")
-    @allure.severity("High")
+    @allure.severity("medium")
     @pytest.mark.smoke
     def test_change_middle_name(self):
         self.login_page.open()
@@ -39,7 +39,7 @@ class TestMyInfoPanel(BaseTest):
         self.myinfo_page.make_screenshot("Success")
 
     @allure.title("Смена отчества")
-    @allure.severity("High")
+    @allure.severity("medium")
     @pytest.mark.smoke
     def test_change_last_name(self):
         self.login_page.open()
@@ -55,7 +55,7 @@ class TestMyInfoPanel(BaseTest):
         self.myinfo_page.make_screenshot("Success")
 
     @allure.title("Смена никнейма")
-    @allure.severity("High")
+    @allure.severity("medium")
     @pytest.mark.smoke
     def test_change_nickname(self):
         self.login_page.open()
@@ -72,7 +72,7 @@ class TestMyInfoPanel(BaseTest):
 
 
     @allure.title("Смена обязательных полей")
-    @allure.severity("High")
+    @allure.severity("medium")
     @pytest.mark.smoke
     def test_change_nickname(self):
         self.login_page.open()

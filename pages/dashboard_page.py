@@ -18,3 +18,13 @@ class DashboardPage(BasePage, DashboardPageLocators):
     @allure.step("перейти на страницу 'Admin'")
     def click_admin_link(self):
         self.wait.until(EC.element_to_be_clickable(self.ADMIN_BUTTON)).click()
+
+
+    @allure.step("перейти на страницу 'Pim'")
+    def click_pim_link(self):
+        self.wait.until(EC.element_to_be_clickable(self.PIM_BUTTON)).click()
+
+
+    @allure.step("перейти на страницу 'Time'")
+    def click_time_link(self):
+        self.wait.until(EC.element_to_be_clickable(self.TIME_BUTTON)).click()

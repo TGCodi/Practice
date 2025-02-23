@@ -27,6 +27,8 @@ class DashboardPageLocators:
 
     MY_INFO_BUTTON = ("xpath", "//span[text()='My Info']")
     ADMIN_BUTTON = ("xpath", "//span[text()='Admin']")
+    PIM_BUTTON = ("xpath", "//span[text()='PIM']")
+    TIME_BUTTON = ("xpath", "//span[text()='Time']")
 
 
 class MyInfoPageLocators:
@@ -43,3 +45,32 @@ class LoginPageLocators:
     USERNAME_FIELD = ("xpath", "//input[@name='username']")
     PASSWORD_FIELD = ("xpath", "//input[@name='password']")
     SUBMIT_BUTTON = ("xpath", "//button[@type='submit']")
+
+class PimLocators:
+
+    EMPLOYEE_NAME_FIELD = ("xpath", "(//input[@placeholder='Type for hints...'])[1]")
+    SUPERVISOR_NAME_FIELD = ("xpath", "(//input[@placeholder='Type for hints...'])[2]")
+    EMPLOYEE_ID_FIELD = ("xpath", "(//input[@class='oxd-input oxd-input--active'])[2]")
+
+    JOB_TITTLE = ("xpath", "(//div[@class='oxd-select-text oxd-select-text--active'])[3]")
+    JOB_TITTLE_ACCOUNT_ASSISTANT = ("xpath", "//span[text()='Account Assistant']")
+    JOB_TITTLE_AUTOMATION_TESTER = ("xpath", "//span[text()='Automaton Tester']")
+
+    EMPLOYEE_STATUS = ("xpath", "(//div[@class='oxd-select-text oxd-select-text--active'])[1]")
+    STATUS_FREELANCE = ("xpath", "//span[text()='Freelance']")
+    STATUS_FULL_TIME_CONTRACT = ("xpath", "//span[text()='Full-Time Contract']")
+    STATUS_FULL_TIME_PERMANENT = ("xpath", "//span[text()='Full-Time Permanent']")
+
+    INCLUDE = ("xpath", "(//div[@class='oxd-select-text oxd-select-text--active'])[2]")
+    CURRENT_EMPLOYEE = ("xpath", "//span[text()='Current and Past Employees']")
+    PAST_EMPLOYEE = ("xpath", "//span[text()='Past Employees Only']")
+
+    SUB_UNIT = ("xpath", "(//div[@class='oxd-select-text oxd-select-text--active'])[4]")
+    ORANGEHRM_UNIT = ("xpath", "//span[text()='OrangeHRM']")
+    ADMINISTRATION_UNIT = ("xpath", "//span[text()='Administration']")
+
+    RESET_BUTTON = ("xpath", "//button[@type='reset']")
+    SEARCH_BUTTON = ("xpath", "//button[@type='submit']")
+
+class TimeLocators:
+    pass

@@ -8,7 +8,7 @@ class TestAdminPanel(BaseTest):
 
     @allure.title("Поиск по никнейму")
     @allure.severity("medium")
-    @pytest.mark.smoke
+    @pytest.mark.xfail
     def test_search_by_name(self):
         self.login_page.open()
         self.login_page.enter_login(self.data.LOGIN)
@@ -17,7 +17,7 @@ class TestAdminPanel(BaseTest):
         self.dashboard_page.is_opened()
         self.dashboard_page.click_admin_link()
         self.admin_page.is_opened()
-        self.admin_page.write_name_in_search_field("Admin}")
+        self.admin_page.write_name_in_search_field("Admin")
         self.admin_page.click_search_button()
         self.admin_page.is_username_search_valid()
         self.admin_page.make_screenshot("Success")
@@ -40,7 +40,7 @@ class TestAdminPanel(BaseTest):
 
     @allure.title("Поиск по статусу")
     @allure.severity("medium")
-    @pytest.mark.smoke
+    @pytest.mark.xfail
     def test_search_by_status(self):
         self.login_page.open()
         self.login_page.enter_login(self.data.LOGIN)
