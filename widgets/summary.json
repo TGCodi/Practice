@@ -3,18 +3,18 @@
   "testRuns" : [ ],
   "statistic" : {
     "failed" : 0,
-    "broken" : 2,
+    "broken" : 0,
     "skipped" : 0,
-    "passed" : 6,
+    "passed" : 8,
     "unknown" : 0,
     "total" : 8
   },
   "time" : {
     "start" : 1740225991408,
-    "stop" : 1740325078360,
-    "duration" : 99086952,
-    "minDuration" : 6019,
-    "maxDuration" : 14975,
-    "sumDuration" : 79068
+    "stop" : 1740338597959,
+    "duration" : 112606551,
+    "minDuration" : 5957,
+    "maxDuration" : 10528,
+    "sumDuration" : 61163
   }
 }
