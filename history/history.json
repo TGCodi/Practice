@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "239be7e5555cc58b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740317151018,
+        "stop" : 1740317156924,
+        "duration" : 5906
+      }
+    }, {
       "uid" : "d4026ce2eac58d49",
       "status" : "passed",
       "time" : {
@@ -32,11 +40,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "bda18f4c0282d93a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740317175539,
+        "stop" : 1740317183613,
+        "duration" : 8074
+      }
+    }, {
       "uid" : "37840547257784a0",
       "status" : "passed",
       "time" : {
@@ -59,11 +75,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "7b1f15a52e5fbf3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740317184409,
+        "stop" : 1740317192580,
+        "duration" : 8171
+      }
+    }, {
       "uid" : "dba00efa2f5320cf",
       "status" : "passed",
       "time" : {
@@ -86,11 +110,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "72463091acf3a996",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740317166572,
+        "stop" : 1740317174746,
+        "duration" : 8174
+      }
+    }, {
       "uid" : "9a916972c9c4ed3c",
       "status" : "passed",
       "time" : {
@@ -113,11 +145,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "e2d8df31ecae6048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740225991408,
+        "stop" : 1740226001936,
+        "duration" : 10528
+      }
+    }, {
       "uid" : "e6e46633295f1cef",
       "status" : "passed",
       "time" : {
@@ -183,11 +223,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "f9cbe4a0d6ddf79d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740317157719,
+        "stop" : 1740317165780,
+        "duration" : 8061
+      }
+    }, {
       "uid" : "4a08dc926f017e20",
       "status" : "passed",
       "time" : {
@@ -210,11 +258,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "4a9497c30022f08d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740317144297,
+        "stop" : 1740317150225,
+        "duration" : 5928
+      }
+    }, {
       "uid" : "3d5ab2ecfa466759",
       "status" : "passed",
       "time" : {
@@ -236,13 +292,22 @@
   "02b3725f51d94dccb6757f23e1bcc508" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "99c4a71002e3b3dc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1740317128594,
+        "stop" : 1740317143435,
+        "duration" : 14841
+      }
+    }, {
       "uid" : "22890ed7323ab456",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",

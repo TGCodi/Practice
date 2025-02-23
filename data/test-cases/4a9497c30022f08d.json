@@ -1,12 +1,12 @@
 {
-  "uid" : "37840547257784a0",
-  "name" : "Смена отчества",
-  "fullName" : "tests.myinfo_panel_test.TestMyInfoPanel#test_change_last_name",
-  "historyId" : "42de2d817d9d8bc5a61293ef10a6c7cd",
+  "uid" : "4a9497c30022f08d",
+  "name" : "Смена по роле",
+  "fullName" : "tests.admin_panel_test.TestAdminPanel#test_search_by_role",
+  "historyId" : "38d43a6319fa36f39b2aabb13322140d",
   "time" : {
-    "start" : 1740316857532,
-    "stop" : 1740316866455,
-    "duration" : 8923
+    "start" : 1740317144297,
+    "stop" : 1740317150225,
+    "duration" : 5928
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1740316856796,
-      "stop" : 1740316857531,
-      "duration" : 735
+      "start" : 1740317143554,
+      "stop" : 1740317144297,
+      "duration" : 743
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1740316857531,
-      "stop" : 1740316857532,
-      "duration" : 1
+      "start" : 1740317144297,
+      "stop" : 1740317144297,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1740316857532,
-        "stop" : 1740316858712,
-        "duration" : 1180
+        "start" : 1740317144297,
+        "stop" : 1740317144808,
+        "duration" : 511
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "Ввод логина",
       "time" : {
-        "start" : 1740316858712,
-        "stop" : 1740316859765,
-        "duration" : 1053
+        "start" : 1740317144808,
+        "stop" : 1740317145863,
+        "duration" : 1055
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,9 +80,9 @@
     }, {
       "name" : "Ввод пароля",
       "time" : {
-        "start" : 1740316859765,
-        "stop" : 1740316859833,
-        "duration" : 68
+        "start" : 1740317145863,
+        "stop" : 1740317145932,
+        "duration" : 69
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Подтвердить вход",
       "time" : {
-        "start" : 1740316859833,
-        "stop" : 1740316859875,
-        "duration" : 42
+        "start" : 1740317145932,
+        "stop" : 1740317145976,
+        "duration" : 44
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1740316859875,
-        "stop" : 1740316860603,
-        "duration" : 728
+        "start" : 1740317145976,
+        "stop" : 1740317146574,
+        "duration" : 598
       },
       "status" : "passed",
       "steps" : [ ],
@@ -126,11 +126,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "перейти на страницу 'My Info'",
+      "name" : "перейти на страницу 'Admin'",
       "time" : {
-        "start" : 1740316860603,
-        "stop" : 1740316862076,
-        "duration" : 1473
+        "start" : 1740317146574,
+        "stop" : 1740317147890,
+        "duration" : 1316
       },
       "status" : "passed",
       "steps" : [ ],
@@ -141,11 +141,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7 is opened",
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers is opened",
       "time" : {
-        "start" : 1740316862076,
-        "stop" : 1740316862079,
-        "duration" : 3
+        "start" : 1740317147890,
+        "stop" : 1740317147892,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -156,11 +156,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Смена отчества на 'Test 85'",
+      "name" : "Выбор роли",
       "time" : {
-        "start" : 1740316862079,
-        "stop" : 1740316863169,
-        "duration" : 1090
+        "start" : 1740317147892,
+        "stop" : 1740317148991,
+        "duration" : 1099
       },
       "status" : "passed",
       "steps" : [ ],
@@ -171,11 +171,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Сохранить изменения",
+      "name" : "Клик по кнопке поиска",
       "time" : {
-        "start" : 1740316863169,
-        "stop" : 1740316863217,
-        "duration" : 48
+        "start" : 1740317148991,
+        "stop" : 1740317149034,
+        "duration" : 43
       },
       "status" : "passed",
       "steps" : [ ],
@@ -186,11 +186,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверка сохранения отчества",
+      "name" : "Проверка валидности выдачи роли",
       "time" : {
-        "start" : 1740316863217,
-        "stop" : 1740316866285,
-        "duration" : 3068
+        "start" : 1740317149034,
+        "stop" : 1740317150071,
+        "duration" : 1037
       },
       "status" : "passed",
       "steps" : [ ],
@@ -202,11 +202,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "438c382692d50de1",
+      "uid" : "f03fde7204f3c4fa",
       "name" : "Success",
-      "source" : "438c382692d50de1.png",
+      "source" : "f03fde7204f3c4fa.png",
       "type" : "image/png",
-      "size" : 173864
+      "size" : 140025
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -217,9 +217,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1740316866455,
-      "stop" : 1740316866513,
-      "duration" : 58
+      "start" : 1740317150225,
+      "stop" : 1740317150282,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -232,22 +232,22 @@
   } ],
   "labels" : [ {
     "name" : "severity",
-    "value" : "High"
+    "value" : "medium"
   }, {
     "name" : "parentSuite",
-    "value" : "Страница 'Моё инфо'"
+    "value" : "Страница 'Админ'"
   }, {
     "name" : "tag",
     "value" : "smoke"
   }, {
     "name" : "suite",
-    "value" : "myinfo_panel_test"
+    "value" : "admin_panel_test"
   }, {
     "name" : "subSuite",
-    "value" : "TestMyInfoPanel"
+    "value" : "TestAdminPanel"
   }, {
     "name" : "host",
-    "value" : "b872a56db041"
+    "value" : "eb32cb495fdc"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -259,7 +259,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.myinfo_panel_test"
+    "value" : "tests.admin_panel_test"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -275,24 +275,33 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 0,
+        "broken" : 1,
         "skipped" : 0,
         "passed" : 2,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
-        "uid" : "ceedc894dd66444a",
+        "uid" : "3d5ab2ecfa466759",
         "status" : "passed",
         "time" : {
-          "start" : 1740257051484,
-          "stop" : 1740257060404,
-          "duration" : 8920
+          "start" : 1740316822775,
+          "stop" : 1740316829647,
+          "duration" : 6872
+        }
+      }, {
+        "uid" : "950b5cfa317aef5c",
+        "status" : "broken",
+        "statusDetails" : "TypeError: argument of type 'NoneType' is not iterable",
+        "time" : {
+          "start" : 1740257019320,
+          "stop" : 1740257025995,
+          "duration" : 6675
         }
       } ]
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "37840547257784a0.json",
+  "source" : "4a9497c30022f08d.json",
   "parameterValues" : [ ]
 }

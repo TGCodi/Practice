@@ -1,23 +1,23 @@
 {
-  "uid" : "22890ed7323ab456",
+  "uid" : "99c4a71002e3b3dc",
   "name" : "Поиск по никнейму",
   "fullName" : "tests.admin_panel_test.TestAdminPanel#test_search_by_name",
   "historyId" : "02b3725f51d94dccb6757f23e1bcc508",
   "time" : {
-    "start" : 1740316806220,
-    "stop" : 1740316821927,
-    "duration" : 15707
+    "start" : 1740317128594,
+    "stop" : 1740317143435,
+    "duration" : 14841
   },
   "status" : "broken",
   "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
-  "statusTrace" : "self = <admin_panel_test.TestAdminPanel object at 0x7f4c362ea510>\n\n    @allure.title(\"Поиск по никнейму\")\n    @allure.severity(\"medium\")\n    @pytest.mark.smoke\n    def test_search_by_name(self):\n        self.login_page.open()\n        self.login_page.enter_login(self.data.LOGIN)\n        self.login_page.enter_password(self.data.PASSWORD)\n        self.login_page.click_submit_button()\n        self.dashboard_page.is_opened()\n        self.dashboard_page.click_admin_link()\n        self.admin_page.is_opened()\n        self.admin_page.write_name_in_search_field(\"Admin}\")\n        self.admin_page.click_search_button()\n>       self.admin_page.is_username_search_valid()\n\ntests/admin_panel_test.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/admin_page.py:53: in is_username_search_valid\n    self.wait.until(EC.visibility_of_element_located(self.USERNAME_RESULT))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"5fdb3815a4fa5674abc628f78ee89f8e\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7f4c3505fe20>\nmessage = ''\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
+  "statusTrace" : "self = <admin_panel_test.TestAdminPanel object at 0x7f5e03bfd9a0>\n\n    @allure.title(\"Поиск по никнейму\")\n    @allure.severity(\"medium\")\n    @pytest.mark.smoke\n    def test_search_by_name(self):\n        self.login_page.open()\n        self.login_page.enter_login(self.data.LOGIN)\n        self.login_page.enter_password(self.data.PASSWORD)\n        self.login_page.click_submit_button()\n        self.dashboard_page.is_opened()\n        self.dashboard_page.click_admin_link()\n        self.admin_page.is_opened()\n        self.admin_page.write_name_in_search_field(\"Admin}\")\n        self.admin_page.click_search_button()\n>       self.admin_page.is_username_search_valid()\n\ntests/admin_panel_test.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/admin_page.py:53: in is_username_search_valid\n    self.wait.until(EC.visibility_of_element_located(self.USERNAME_RESULT))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"8020743efcee36f69fa5e4dc8b309827\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7f5e0372be20>\nmessage = ''\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1740316806220,
-      "stop" : 1740316806220,
+      "start" : 1740317128594,
+      "stop" : 1740317128594,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,9 +31,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1740316805473,
-      "stop" : 1740316806219,
-      "duration" : 746
+      "start" : 1740317127836,
+      "stop" : 1740317128594,
+      "duration" : 758
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,13 +47,13 @@
   "testStage" : {
     "status" : "broken",
     "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
-    "statusTrace" : "self = <admin_panel_test.TestAdminPanel object at 0x7f4c362ea510>\n\n    @allure.title(\"Поиск по никнейму\")\n    @allure.severity(\"medium\")\n    @pytest.mark.smoke\n    def test_search_by_name(self):\n        self.login_page.open()\n        self.login_page.enter_login(self.data.LOGIN)\n        self.login_page.enter_password(self.data.PASSWORD)\n        self.login_page.click_submit_button()\n        self.dashboard_page.is_opened()\n        self.dashboard_page.click_admin_link()\n        self.admin_page.is_opened()\n        self.admin_page.write_name_in_search_field(\"Admin}\")\n        self.admin_page.click_search_button()\n>       self.admin_page.is_username_search_valid()\n\ntests/admin_panel_test.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/admin_page.py:53: in is_username_search_valid\n    self.wait.until(EC.visibility_of_element_located(self.USERNAME_RESULT))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"5fdb3815a4fa5674abc628f78ee89f8e\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7f4c3505fe20>\nmessage = ''\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
+    "statusTrace" : "self = <admin_panel_test.TestAdminPanel object at 0x7f5e03bfd9a0>\n\n    @allure.title(\"Поиск по никнейму\")\n    @allure.severity(\"medium\")\n    @pytest.mark.smoke\n    def test_search_by_name(self):\n        self.login_page.open()\n        self.login_page.enter_login(self.data.LOGIN)\n        self.login_page.enter_password(self.data.PASSWORD)\n        self.login_page.click_submit_button()\n        self.dashboard_page.is_opened()\n        self.dashboard_page.click_admin_link()\n        self.admin_page.is_opened()\n        self.admin_page.write_name_in_search_field(\"Admin}\")\n        self.admin_page.click_search_button()\n>       self.admin_page.is_username_search_valid()\n\ntests/admin_panel_test.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/admin_page.py:53: in is_username_search_valid\n    self.wait.until(EC.visibility_of_element_located(self.USERNAME_RESULT))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"8020743efcee36f69fa5e4dc8b309827\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7f5e0372be20>\nmessage = ''\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1740316806220,
-        "stop" : 1740316807444,
-        "duration" : 1224
+        "start" : 1740317128594,
+        "stop" : 1740317129191,
+        "duration" : 597
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,9 +66,9 @@
     }, {
       "name" : "Ввод логина",
       "time" : {
-        "start" : 1740316807445,
-        "stop" : 1740316808499,
-        "duration" : 1054
+        "start" : 1740317129191,
+        "stop" : 1740317130248,
+        "duration" : 1057
       },
       "status" : "passed",
       "steps" : [ ],
@@ -84,9 +84,9 @@
     }, {
       "name" : "Ввод пароля",
       "time" : {
-        "start" : 1740316808499,
-        "stop" : 1740316808566,
-        "duration" : 67
+        "start" : 1740317130248,
+        "stop" : 1740317130319,
+        "duration" : 71
       },
       "status" : "passed",
       "steps" : [ ],
@@ -102,9 +102,9 @@
     }, {
       "name" : "Подтвердить вход",
       "time" : {
-        "start" : 1740316808566,
-        "stop" : 1740316808607,
-        "duration" : 41
+        "start" : 1740317130319,
+        "stop" : 1740317130363,
+        "duration" : 44
       },
       "status" : "passed",
       "steps" : [ ],
@@ -117,9 +117,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1740316808608,
-        "stop" : 1740316809329,
-        "duration" : 721
+        "start" : 1740317130363,
+        "stop" : 1740317130957,
+        "duration" : 594
       },
       "status" : "passed",
       "steps" : [ ],
@@ -132,9 +132,9 @@
     }, {
       "name" : "перейти на страницу 'Admin'",
       "time" : {
-        "start" : 1740316809329,
-        "stop" : 1740316810755,
-        "duration" : 1426
+        "start" : 1740317130958,
+        "stop" : 1740317132258,
+        "duration" : 1300
       },
       "status" : "passed",
       "steps" : [ ],
@@ -147,9 +147,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers is opened",
       "time" : {
-        "start" : 1740316810755,
-        "stop" : 1740316810758,
-        "duration" : 3
+        "start" : 1740317132258,
+        "stop" : 1740317132260,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -162,9 +162,9 @@
     }, {
       "name" : "Ввод ника в поиск 'Admin}'",
       "time" : {
-        "start" : 1740316810758,
-        "stop" : 1740316811820,
-        "duration" : 1062
+        "start" : 1740317132260,
+        "stop" : 1740317133324,
+        "duration" : 1064
       },
       "status" : "passed",
       "steps" : [ ],
@@ -177,9 +177,9 @@
     }, {
       "name" : "Клик по кнопке поиска",
       "time" : {
-        "start" : 1740316811820,
-        "stop" : 1740316811866,
-        "duration" : 46
+        "start" : 1740317133324,
+        "stop" : 1740317133369,
+        "duration" : 45
       },
       "status" : "passed",
       "steps" : [ ],
@@ -192,9 +192,9 @@
     }, {
       "name" : "Проверка валидности выдачи ника",
       "time" : {
-        "start" : 1740316811866,
-        "stop" : 1740316821925,
-        "duration" : 10059
+        "start" : 1740317133369,
+        "stop" : 1740317143434,
+        "duration" : 10065
       },
       "status" : "broken",
       "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
@@ -217,9 +217,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1740316821956,
-      "stop" : 1740316822042,
-      "duration" : 86
+      "start" : 1740317143465,
+      "stop" : 1740317143552,
+      "duration" : 87
     },
     "status" : "passed",
     "steps" : [ ],
@@ -247,7 +247,7 @@
     "value" : "TestAdminPanel"
   }, {
     "name" : "host",
-    "value" : "b872a56db041"
+    "value" : "eb32cb495fdc"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -279,13 +279,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 2,
+        "broken" : 3,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "22890ed7323ab456",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1740316806220,
+          "stop" : 1740316821927,
+          "duration" : 15707
+        }
+      }, {
         "uid" : "76f2e984712d9476",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -298,6 +307,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "22890ed7323ab456.json",
+  "source" : "99c4a71002e3b3dc.json",
   "parameterValues" : [ ]
 }
