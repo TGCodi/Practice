@@ -1,12 +1,12 @@
 {
-  "uid" : "9dcece774130a160",
-  "name" : "Смена имени",
-  "fullName" : "tests.myinfo_panel_test.TestMyInfoPanel#test_change_first_name",
-  "historyId" : "dce8f340982f48f097b0c7c8c58765d1",
+  "uid" : "37840547257784a0",
+  "name" : "Смена отчества",
+  "fullName" : "tests.myinfo_panel_test.TestMyInfoPanel#test_change_last_name",
+  "historyId" : "42de2d817d9d8bc5a61293ef10a6c7cd",
   "time" : {
-    "start" : 1740257032110,
-    "stop" : 1740257040958,
-    "duration" : 8848
+    "start" : 1740316857532,
+    "stop" : 1740316866455,
+    "duration" : 8923
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1740257031379,
-      "stop" : 1740257032110,
-      "duration" : 731
+      "start" : 1740316856796,
+      "stop" : 1740316857531,
+      "duration" : 735
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1740257032110,
-      "stop" : 1740257032110,
-      "duration" : 0
+      "start" : 1740316857531,
+      "stop" : 1740316857532,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1740257032110,
-        "stop" : 1740257033222,
-        "duration" : 1112
+        "start" : 1740316857532,
+        "stop" : 1740316858712,
+        "duration" : 1180
       },
       "status" : "passed",
       "steps" : [ ],
@@ -60,11 +60,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Enter login",
+      "name" : "Ввод логина",
       "time" : {
-        "start" : 1740257033222,
-        "stop" : 1740257034277,
-        "duration" : 1055
+        "start" : 1740316858712,
+        "stop" : 1740316859765,
+        "duration" : 1053
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,10 +78,10 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Enter password",
+      "name" : "Ввод пароля",
       "time" : {
-        "start" : 1740257034277,
-        "stop" : 1740257034345,
+        "start" : 1740316859765,
+        "stop" : 1740316859833,
         "duration" : 68
       },
       "status" : "passed",
@@ -96,10 +96,10 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Click submit button",
+      "name" : "Подтвердить вход",
       "time" : {
-        "start" : 1740257034345,
-        "stop" : 1740257034387,
+        "start" : 1740316859833,
+        "stop" : 1740316859875,
         "duration" : 42
       },
       "status" : "passed",
@@ -113,8 +113,8 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1740257034387,
-        "stop" : 1740257035115,
+        "start" : 1740316859875,
+        "stop" : 1740316860603,
         "duration" : 728
       },
       "status" : "passed",
@@ -128,9 +128,9 @@
     }, {
       "name" : "перейти на страницу 'My Info'",
       "time" : {
-        "start" : 1740257035116,
-        "stop" : 1740257036576,
-        "duration" : 1460
+        "start" : 1740316860603,
+        "stop" : 1740316862076,
+        "duration" : 1473
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,9 +143,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7 is opened",
       "time" : {
-        "start" : 1740257036576,
-        "stop" : 1740257036578,
-        "duration" : 2
+        "start" : 1740316862076,
+        "stop" : 1740316862079,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -156,11 +156,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Смена имени на 'Test 8'",
+      "name" : "Смена отчества на 'Test 85'",
       "time" : {
-        "start" : 1740257036578,
-        "stop" : 1740257037666,
-        "duration" : 1088
+        "start" : 1740316862079,
+        "stop" : 1740316863169,
+        "duration" : 1090
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,9 +173,9 @@
     }, {
       "name" : "Сохранить изменения",
       "time" : {
-        "start" : 1740257037666,
-        "stop" : 1740257037710,
-        "duration" : 44
+        "start" : 1740316863169,
+        "stop" : 1740316863217,
+        "duration" : 48
       },
       "status" : "passed",
       "steps" : [ ],
@@ -186,11 +186,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверка сохранения имени",
+      "name" : "Проверка сохранения отчества",
       "time" : {
-        "start" : 1740257037711,
-        "stop" : 1740257040778,
-        "duration" : 3067
+        "start" : 1740316863217,
+        "stop" : 1740316866285,
+        "duration" : 3068
       },
       "status" : "passed",
       "steps" : [ ],
@@ -202,11 +202,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "4b1e80ded2ac19cb",
+      "uid" : "438c382692d50de1",
       "name" : "Success",
-      "source" : "4b1e80ded2ac19cb.png",
+      "source" : "438c382692d50de1.png",
       "type" : "image/png",
-      "size" : 168339
+      "size" : 173864
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -217,9 +217,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1740257040959,
-      "stop" : 1740257041016,
-      "duration" : 57
+      "start" : 1740316866455,
+      "stop" : 1740316866513,
+      "duration" : 58
     },
     "status" : "passed",
     "steps" : [ ],
@@ -231,11 +231,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "parentSuite",
-    "value" : "Страница 'Моё инфо'"
-  }, {
     "name" : "severity",
     "value" : "High"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Страница 'Моё инфо'"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -247,7 +247,7 @@
     "value" : "TestMyInfoPanel"
   }, {
     "name" : "host",
-    "value" : "c23690b73d22"
+    "value" : "b872a56db041"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -272,8 +272,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ceedc894dd66444a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740257051484,
+          "stop" : 1740257060404,
+          "duration" : 8920
+        }
+      } ]
+    },
     "tags" : [ "smoke" ]
   },
-  "source" : "9dcece774130a160.json",
+  "source" : "37840547257784a0.json",
   "parameterValues" : [ ]
 }

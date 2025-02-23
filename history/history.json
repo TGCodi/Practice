@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d4026ce2eac58d49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740316830439,
+        "stop" : 1740316837296,
+        "duration" : 6857
+      }
+    }, {
       "uid" : "aecfce5ad7c0611f",
       "status" : "broken",
       "statusDetails" : "TypeError: element_to_be_clickable() missing 1 required positional argument: 'mark'",
@@ -24,11 +32,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "37840547257784a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740316857532,
+        "stop" : 1740316866455,
+        "duration" : 8923
+      }
+    }, {
       "uid" : "ceedc894dd66444a",
       "status" : "passed",
       "time" : {
@@ -43,11 +59,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "dba00efa2f5320cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740316867248,
+        "stop" : 1740316876271,
+        "duration" : 9023
+      }
+    }, {
       "uid" : "c7e7ab45039e66bd",
       "status" : "passed",
       "time" : {
@@ -62,11 +86,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9a916972c9c4ed3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740316847793,
+        "stop" : 1740316856737,
+        "duration" : 8944
+      }
+    }, {
       "uid" : "2e30aec6e2587639",
       "status" : "passed",
       "time" : {
@@ -81,11 +113,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e6e46633295f1cef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740225991408,
+        "stop" : 1740226001936,
+        "duration" : 10528
+      }
+    }, {
       "uid" : "dbcd393ede221a32",
       "status" : "passed",
       "time" : {
@@ -143,11 +183,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4a08dc926f017e20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740316838086,
+        "stop" : 1740316847006,
+        "duration" : 8920
+      }
+    }, {
       "uid" : "9dcece774130a160",
       "status" : "passed",
       "time" : {
@@ -162,11 +210,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3d5ab2ecfa466759",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740316822775,
+        "stop" : 1740316829647,
+        "duration" : 6872
+      }
+    }, {
       "uid" : "950b5cfa317aef5c",
       "status" : "broken",
       "statusDetails" : "TypeError: argument of type 'NoneType' is not iterable",
@@ -180,13 +236,22 @@
   "02b3725f51d94dccb6757f23e1bcc508" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "22890ed7323ab456",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1740316806220,
+        "stop" : 1740316821927,
+        "duration" : 15707
+      }
+    }, {
       "uid" : "76f2e984712d9476",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",

@@ -6,53 +6,19 @@
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "Поиск по никнейму",
-        "uid" : "76f2e984712d9476",
+        "uid" : "22890ed7323ab456",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1740257002783,
-          "stop" : 1740257018470,
-          "duration" : 15687
+          "start" : 1740316806220,
+          "stop" : 1740316821927,
+          "duration" : 15707
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "31bb78a6a95ede3f78b260ed048910d8"
-    }, {
-      "name" : "TypeError: argument of type 'NoneType' is not iterable",
-      "children" : [ {
-        "name" : "Смена по роле",
-        "uid" : "950b5cfa317aef5c",
-        "parentUid" : "e9db08476fd0716ac0709ac5baab340a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1740257019320,
-          "stop" : 1740257025995,
-          "duration" : 6675
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e9db08476fd0716ac0709ac5baab340a"
-    }, {
-      "name" : "TypeError: element_to_be_clickable() missing 1 required positional argument: 'mark'",
-      "children" : [ {
-        "name" : "Поиск по статусу",
-        "uid" : "aecfce5ad7c0611f",
-        "parentUid" : "d67d34aefaecefb4dcde7ad62647bea1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1740257026792,
-          "stop" : 1740257031317,
-          "duration" : 4525
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d67d34aefaecefb4dcde7ad62647bea1"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
