@@ -32,7 +32,7 @@ class AdminPage(BasePage, AdminPageLocators):
 
     def choose_status(self, x):
         with allure.step(f"Выбор статуса"):
-            status = self.wait.until(EC.element_to_be_clickable())
+            status = self.wait.until(EC.element_to_be_clickable(self.STATUS))
             status.click()
 
             if x == 1:
@@ -51,12 +51,12 @@ class AdminPage(BasePage, AdminPageLocators):
     @allure.step("Проверка валидности выдачи ника")
     def is_username_search_valid(self):
         self.wait.until(EC.visibility_of_element_located(self.USERNAME_RESULT))
-        self.wait.until(EC.text_to_be_present_in_element_value(self.USERNAME_RESULT, self.name))
+        self.wait.until(EC.text_to_be_present_in_element(self.USERNAME_RESULT, self.name))
 
     @allure.step("Проверка валидности выдачи роли")
     def is_user_role_search_valid(self):
         self.wait.until(EC.visibility_of_element_located(self.USER_ROLE_RESULT))
-        self.wait.until(EC.text_to_be_present_in_element_value(self.USER_ROLE_RESULT, self.role))
+        self.wait.until(EC.text_to_be_present_in_element(self.USER_ROLE_RESULT, self.role))
 
     # @allure.step("Проверка валидности выдачи имени")
     # def is_employee_name_search_valid(self):
@@ -66,5 +66,5 @@ class AdminPage(BasePage, AdminPageLocators):
     @allure.step("Проверка валидности выдачи статуса")
     def is_status_search_valid(self):
         self.wait.until(EC.visibility_of_element_located(self.STATUS_RESULT))
-        self.wait.until(EC.text_to_be_present_in_element_value(self.STATUS_RESULT, self.status))
+        self.wait.until(EC.text_to_be_present_in_element(self.STATUS_RESULT, self.status))
 

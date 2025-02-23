@@ -17,7 +17,7 @@ class TestAdminPanel(BaseTest):
         self.dashboard_page.is_opened()
         self.dashboard_page.click_admin_link()
         self.admin_page.is_opened()
-        self.admin_page.write_name_in_search_field(f"Test {random.randint(1, 100)}")
+        self.admin_page.write_name_in_search_field("Admin}")
         self.admin_page.click_search_button()
         self.admin_page.is_username_search_valid()
         self.admin_page.make_screenshot("Success")

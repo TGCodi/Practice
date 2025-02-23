@@ -3,20 +3,20 @@
 class AdminPageLocators:
 
     USERNAME_FIELD = ("xpath", "(//input[@class='oxd-input oxd-input--active'])[2]")
-    USERNAME_RESULT = ("xpath", "(//div[@class='oxd-table-cell oxd-padding-cell'])[2]")
+    USERNAME_RESULT = ("xpath", "(//div[@class='oxd-table-cell oxd-padding-cell'])[2]/div")
 
     USER_ROLE = ("xpath", "(//div[text()='-- Select --'])[1]" )
     ADMIN_ROLE = ("xpath", "(//div[@class='oxd-select-option']/span)[1]")
     ESS_ROlE = ("xpath", "(//div[@class='oxd-select-option']/span)[2]")
-    USER_ROLE_RESULT = ("xpath", "(//div[@class='oxd-table-cell oxd-padding-cell'])[3]" )
+    USER_ROLE_RESULT = ("xpath", "(//div[@class='oxd-table-cell oxd-padding-cell'])[3]/div" )
 
     EMPLOYEE_NAME_FIElD = ("xpath", "//input[@placeholder='Type for hints...']")
-    EMPLOYEE_NAME_RESULT = ("xpath", "(//div[@class='oxd-table-cell oxd-padding-cell'])[4]")
+    EMPLOYEE_NAME_RESULT = ("xpath", "(//div[@class='oxd-table-cell oxd-padding-cell'])[4]/div")
 
     STATUS = ("xpath", "(//div[text()='-- Select --'])[2]")
     STATUS_ENABLED = ("xpath", "//span[text()='Enabled']")
     STATUS_DISABLED = ("xpath", "//span[text()='Disabled']")
-    STATUS_RESULT = ("xpath", "(//div[@class='oxd-table-cell oxd-padding-cell'])[5]")
+    STATUS_RESULT = ("xpath", "(//div[@class='oxd-table-cell oxd-padding-cell'])[5]/div")
 
     RESET_BUTTON = ("xpath", "//button[@class='oxd-button oxd-button--medium oxd-button--ghost']")
     SEARCH_BUTTON = ("xpath", "//button[@type='submit']")
