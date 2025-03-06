@@ -1,12 +1,137 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
+    "name" : "9107242ef96a",
+    "children" : [ {
+      "name" : "1-MainThread",
+      "children" : [ {
+        "name" : "Поиск по статусу",
+        "uid" : "891559afef8e8431",
+        "parentUid" : "204da5160d2ef4af30bb7c0b0cf52611",
+        "status" : "broken",
+        "time" : {
+          "start" : 1741275630178,
+          "stop" : 1741275645057,
+          "duration" : 14879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "проверка ввода имени",
+        "uid" : "1c8f30da688bd976",
+        "parentUid" : "204da5160d2ef4af30bb7c0b0cf52611",
+        "status" : "broken",
+        "time" : {
+          "start" : 1741275681644,
+          "stop" : 1741275687531,
+          "duration" : 5887
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Смена имени",
+        "uid" : "96dc0abf8da6fb",
+        "parentUid" : "204da5160d2ef4af30bb7c0b0cf52611",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741275645880,
+          "stop" : 1741275653961,
+          "duration" : 8081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Смена по роле",
+        "uid" : "72f37e7082574c17",
+        "parentUid" : "204da5160d2ef4af30bb7c0b0cf52611",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741275623314,
+          "stop" : 1741275629387,
+          "duration" : 6073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "проверка ввода не только имени ",
+        "uid" : "882ddc4953219be",
+        "parentUid" : "204da5160d2ef4af30bb7c0b0cf52611",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741275688330,
+          "stop" : 1741275693471,
+          "duration" : 5141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Смена фамилии",
+        "uid" : "a2f89fb79e126d2a",
+        "parentUid" : "204da5160d2ef4af30bb7c0b0cf52611",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741275654754,
+          "stop" : 1741275662860,
+          "duration" : 8106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Смена обязательных полей",
+        "uid" : "c5a63956d6a47494",
+        "parentUid" : "204da5160d2ef4af30bb7c0b0cf52611",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741275672603,
+          "stop" : 1741275680848,
+          "duration" : 8245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Смена отчества",
+        "uid" : "f0a42f40e0b63c56",
+        "parentUid" : "204da5160d2ef4af30bb7c0b0cf52611",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741275663654,
+          "stop" : 1741275671809,
+          "duration" : 8155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Поиск по никнейму",
+        "uid" : "125507a184d9f0b9",
+        "parentUid" : "204da5160d2ef4af30bb7c0b0cf52611",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741275616362,
+          "stop" : 1741275622487,
+          "duration" : 6125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "204da5160d2ef4af30bb7c0b0cf52611"
+    } ],
+    "uid" : "255ef82879e9cf18fd03e198d9edabb0"
+  }, {
     "name" : "1a8d94b0338a",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
         "name" : "Change profile name",
-        "uid" : "df0d13c33e839820",
+        "uid" : "e97c524533a68dda",
         "parentUid" : "bd618a1c63caca534e06be197901b9ef",
         "status" : "passed",
         "time" : {

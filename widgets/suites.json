@@ -1,6 +1,39 @@
 {
-  "total" : 1,
+  "total" : 4,
   "items" : [ {
+    "uid" : "6411777c480152a6d6d866ceca9122a8",
+    "name" : "Страница 'Админ'",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "1978484bb8e5fe9dacfee8cd77372b84",
+    "name" : "Страница 'Pim'",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "3a23bb2d31d92a7163fd0dc7226d7a93",
+    "name" : "Страница 'Моё инфо'",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
     "uid" : "e387fa4bb326b54ea8c19c2822aba374",
     "name" : "tests",
     "statistic" : {
