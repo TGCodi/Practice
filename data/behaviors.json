@@ -4,7 +4,7 @@
     "name" : "Admin Panel",
     "children" : [ {
       "name" : "Change profile name",
-      "uid" : "668e17e999f89f33",
+      "uid" : "df0d13c33e839820",
       "parentUid" : "1f17b2e190fbf11330d51e8d25ebb1ed",
       "status" : "passed",
       "time" : {

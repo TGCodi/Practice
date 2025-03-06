@@ -8,7 +8,7 @@
         "name" : "TestAdminPanel",
         "children" : [ {
           "name" : "Change profile name",
-          "uid" : "668e17e999f89f33",
+          "uid" : "df0d13c33e839820",
           "parentUid" : "65cc2b0194563bd105178697d2f1eac5",
           "status" : "passed",
           "time" : {
