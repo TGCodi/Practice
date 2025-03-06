@@ -4,7 +4,7 @@
     "name" : "Admin Panel",
     "children" : [ {
       "name" : "Change profile name",
-      "uid" : "4643d825de99d119",
+      "uid" : "668e17e999f89f33",
       "parentUid" : "1f17b2e190fbf11330d51e8d25ebb1ed",
       "status" : "passed",
       "time" : {
@@ -17,97 +17,6 @@
       "parameters" : [ ]
     } ],
     "uid" : "1f17b2e190fbf11330d51e8d25ebb1ed"
-  }, {
-    "name" : "Поиск по никнейму",
-    "uid" : "b321ca3fc7fc947e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1740338542546,
-      "stop" : 1740338548567,
-      "duration" : 6021
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Смена по роле",
-    "uid" : "206624e749fc217e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1740338549390,
-      "stop" : 1740338555402,
-      "duration" : 6012
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Поиск по статусу",
-    "uid" : "269983e8cb46d5e7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1740338556194,
-      "stop" : 1740338562151,
-      "duration" : 5957
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Смена имени",
-    "uid" : "b7afd0d3cd32f4f3",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1740338562939,
-      "stop" : 1740338571042,
-      "duration" : 8103
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Смена фамилии",
-    "uid" : "8630dda231046140",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1740338571838,
-      "stop" : 1740338579943,
-      "duration" : 8105
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Смена отчества",
-    "uid" : "81c84125eafb1d99",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1740338580732,
-      "stop" : 1740338588860,
-      "duration" : 8128
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Смена обязательных полей",
-    "uid" : "eb901c5bfcf4835f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1740338589650,
-      "stop" : 1740338597959,
-      "duration" : 8309
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
   } ],
   "name" : "behaviors"
 }

@@ -8,7 +8,7 @@
         "name" : "TestAdminPanel",
         "children" : [ {
           "name" : "Change profile name",
-          "uid" : "4643d825de99d119",
+          "uid" : "668e17e999f89f33",
           "parentUid" : "65cc2b0194563bd105178697d2f1eac5",
           "status" : "passed",
           "time" : {
@@ -25,121 +25,6 @@
       "uid" : "da6cd7f4463c088e541f1efbafba155a"
     } ],
     "uid" : "e387fa4bb326b54ea8c19c2822aba374"
-  }, {
-    "name" : "Страница 'Админ'",
-    "children" : [ {
-      "name" : "admin_panel_test",
-      "children" : [ {
-        "name" : "TestAdminPanel",
-        "children" : [ {
-          "name" : "Поиск по никнейму",
-          "uid" : "b321ca3fc7fc947e",
-          "parentUid" : "12ce711e2cd96b2e2cc73c748291d5b1",
-          "status" : "passed",
-          "time" : {
-            "start" : 1740338542546,
-            "stop" : 1740338548567,
-            "duration" : 6021
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Смена по роле",
-          "uid" : "206624e749fc217e",
-          "parentUid" : "12ce711e2cd96b2e2cc73c748291d5b1",
-          "status" : "passed",
-          "time" : {
-            "start" : 1740338549390,
-            "stop" : 1740338555402,
-            "duration" : 6012
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Поиск по статусу",
-          "uid" : "269983e8cb46d5e7",
-          "parentUid" : "12ce711e2cd96b2e2cc73c748291d5b1",
-          "status" : "passed",
-          "time" : {
-            "start" : 1740338556194,
-            "stop" : 1740338562151,
-            "duration" : 5957
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "12ce711e2cd96b2e2cc73c748291d5b1"
-      } ],
-      "uid" : "97756359645fe1f13acce46ad3ef8261"
-    } ],
-    "uid" : "6411777c480152a6d6d866ceca9122a8"
-  }, {
-    "name" : "Страница 'Моё инфо'",
-    "children" : [ {
-      "name" : "myinfo_panel_test",
-      "children" : [ {
-        "name" : "TestMyInfoPanel",
-        "children" : [ {
-          "name" : "Смена имени",
-          "uid" : "b7afd0d3cd32f4f3",
-          "parentUid" : "935f6954dd45ae7585842fdff527986b",
-          "status" : "passed",
-          "time" : {
-            "start" : 1740338562939,
-            "stop" : 1740338571042,
-            "duration" : 8103
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Смена фамилии",
-          "uid" : "8630dda231046140",
-          "parentUid" : "935f6954dd45ae7585842fdff527986b",
-          "status" : "passed",
-          "time" : {
-            "start" : 1740338571838,
-            "stop" : 1740338579943,
-            "duration" : 8105
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Смена отчества",
-          "uid" : "81c84125eafb1d99",
-          "parentUid" : "935f6954dd45ae7585842fdff527986b",
-          "status" : "passed",
-          "time" : {
-            "start" : 1740338580732,
-            "stop" : 1740338588860,
-            "duration" : 8128
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Смена обязательных полей",
-          "uid" : "eb901c5bfcf4835f",
-          "parentUid" : "935f6954dd45ae7585842fdff527986b",
-          "status" : "passed",
-          "time" : {
-            "start" : 1740338589650,
-            "stop" : 1740338597959,
-            "duration" : 8309
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "935f6954dd45ae7585842fdff527986b"
-      } ],
-      "uid" : "51b89d841816eaef93c38f8991335065"
-    } ],
-    "uid" : "3a23bb2d31d92a7163fd0dc7226d7a93"
   } ],
   "name" : "suites"
 }

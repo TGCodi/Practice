@@ -1,23 +1,22 @@
 {
-  "uid" : "269983e8cb46d5e7",
-  "name" : "Поиск по статусу",
-  "fullName" : "tests.admin_panel_test.TestAdminPanel#test_search_by_status",
-  "historyId" : "ce93ccc8d62ad7d77a7e1d629e2a6acf",
+  "uid" : "668e17e999f89f33",
+  "name" : "Change profile name",
+  "fullName" : "tests.myinfo_panel_test.TestAdminPanel#test_change_profile_name",
+  "historyId" : "b7f77c84e24a0b6dd0851fd9a379c159",
   "time" : {
-    "start" : 1740338556194,
-    "stop" : 1740338562151,
-    "duration" : 5957
+    "start" : 1740225991408,
+    "stop" : 1740226001936,
+    "duration" : 10528
   },
   "status" : "passed",
-  "statusMessage" : "XPASS",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1740338556194,
-      "stop" : 1740338556194,
-      "duration" : 0
+      "start" : 1740225990357,
+      "stop" : 1740225991407,
+      "duration" : 1050
     },
     "status" : "passed",
     "steps" : [ ],
@@ -28,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1740338555460,
-      "stop" : 1740338556194,
-      "duration" : 734
+      "start" : 1740225991408,
+      "stop" : 1740225991408,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,13 +44,12 @@
   } ],
   "testStage" : {
     "status" : "passed",
-    "statusMessage" : "XPASS",
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1740338556195,
-        "stop" : 1740338556738,
-        "duration" : 543
+        "start" : 1740225991408,
+        "stop" : 1740225993528,
+        "duration" : 2120
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,11 +60,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Ввод логина",
+      "name" : "Enter login",
       "time" : {
-        "start" : 1740338556738,
-        "stop" : 1740338557792,
-        "duration" : 1054
+        "start" : 1740225993528,
+        "stop" : 1740225994612,
+        "duration" : 1084
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,11 +78,11 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Ввод пароля",
+      "name" : "Enter password",
       "time" : {
-        "start" : 1740338557793,
-        "stop" : 1740338557861,
-        "duration" : 68
+        "start" : 1740225994612,
+        "stop" : 1740225994696,
+        "duration" : 84
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,11 +96,11 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Подтвердить вход",
+      "name" : "Click submit button",
       "time" : {
-        "start" : 1740338557861,
-        "stop" : 1740338557902,
-        "duration" : 41
+        "start" : 1740225994696,
+        "stop" : 1740225994745,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -115,9 +113,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1740338557902,
-        "stop" : 1740338558516,
-        "duration" : 614
+        "start" : 1740225994745,
+        "stop" : 1740225995674,
+        "duration" : 929
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,11 +126,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "перейти на страницу 'Admin'",
+      "name" : "Click on 'My Info' link",
       "time" : {
-        "start" : 1740338558516,
-        "stop" : 1740338559833,
-        "duration" : 1317
+        "start" : 1740225995674,
+        "stop" : 1740225997400,
+        "duration" : 1726
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,10 +141,10 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers is opened",
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7 is opened",
       "time" : {
-        "start" : 1740338559833,
-        "stop" : 1740338559836,
+        "start" : 1740225997401,
+        "stop" : 1740225997404,
         "duration" : 3
       },
       "status" : "passed",
@@ -158,11 +156,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбор статуса",
+      "name" : "Change name on 'Test 99'",
       "time" : {
-        "start" : 1740338559836,
-        "stop" : 1740338560929,
-        "duration" : 1093
+        "start" : 1740225997404,
+        "stop" : 1740225998523,
+        "duration" : 1119
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,11 +171,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Клик по кнопке поиска",
+      "name" : "Save changes",
       "time" : {
-        "start" : 1740338560929,
-        "stop" : 1740338560973,
-        "duration" : 44
+        "start" : 1740225998523,
+        "stop" : 1740225998572,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -188,11 +186,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверка валидности выдачи статуса",
+      "name" : "Changes has been saved successfuly",
       "time" : {
-        "start" : 1740338560973,
-        "stop" : 1740338562008,
-        "duration" : 1035
+        "start" : 1740225998572,
+        "stop" : 1740226001703,
+        "duration" : 3131
       },
       "status" : "passed",
       "steps" : [ ],
@@ -204,24 +202,24 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "13cbf93dcf40d7d3",
+      "uid" : "50e703643bb0c81",
       "name" : "Success",
-      "source" : "13cbf93dcf40d7d3.png",
+      "source" : "50e703643bb0c81.png",
       "type" : "image/png",
-      "size" : 117893
+      "size" : 166945
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : true,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 10,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1740338562152,
-      "stop" : 1740338562208,
-      "duration" : 56
+      "start" : 1740226001939,
+      "stop" : 1740226002026,
+      "duration" : 87
     },
     "status" : "passed",
     "steps" : [ ],
@@ -233,23 +231,26 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "parentSuite",
-    "value" : "Страница 'Админ'"
-  }, {
     "name" : "severity",
-    "value" : "medium"
+    "value" : "High"
+  }, {
+    "name" : "feature",
+    "value" : "Admin Panel"
   }, {
     "name" : "tag",
-    "value" : "@pytest.mark.xfail"
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "admin_panel_test"
+    "value" : "myinfo_panel_test"
   }, {
     "name" : "subSuite",
     "value" : "TestAdminPanel"
   }, {
     "name" : "host",
-    "value" : "3a2656d68556"
+    "value" : "1a8d94b0338a"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -261,7 +262,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.admin_panel_test"
+    "value" : "tests.myinfo_panel_test"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -277,50 +278,56 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 2,
+        "broken" : 0,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 6,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
-        "uid" : "f1923d32b585a788",
-        "status" : "broken",
-        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-        "time" : {
-          "start" : 1740325027451,
-          "stop" : 1740325042398,
-          "duration" : 14947
-        }
-      }, {
-        "uid" : "239be7e5555cc58b",
+        "uid" : "4643d825de99d119",
         "status" : "passed",
         "time" : {
-          "start" : 1740317151018,
-          "stop" : 1740317156924,
-          "duration" : 5906
+          "start" : 1740225991408,
+          "stop" : 1740226001936,
+          "duration" : 10528
         }
       }, {
-        "uid" : "d4026ce2eac58d49",
+        "uid" : "3d204290583d8984",
         "status" : "passed",
         "time" : {
-          "start" : 1740316830439,
-          "stop" : 1740316837296,
-          "duration" : 6857
+          "start" : 1740225991408,
+          "stop" : 1740226001936,
+          "duration" : 10528
         }
       }, {
-        "uid" : "aecfce5ad7c0611f",
-        "status" : "broken",
-        "statusDetails" : "TypeError: element_to_be_clickable() missing 1 required positional argument: 'mark'",
+        "uid" : "e2d8df31ecae6048",
+        "status" : "passed",
         "time" : {
-          "start" : 1740257026792,
-          "stop" : 1740257031317,
-          "duration" : 4525
+          "start" : 1740225991408,
+          "stop" : 1740226001936,
+          "duration" : 10528
+        }
+      }, {
+        "uid" : "e6e46633295f1cef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740225991408,
+          "stop" : 1740226001936,
+          "duration" : 10528
+        }
+      }, {
+        "uid" : "dbcd393ede221a32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740225991408,
+          "stop" : 1740226001936,
+          "duration" : 10528
         }
       } ]
     },
-    "tags" : [ "@pytest.mark.xfail" ]
+    "tags" : [ "smoke" ]
   },
-  "source" : "269983e8cb46d5e7.json",
+  "source" : "668e17e999f89f33.json",
   "parameterValues" : [ ]
 }
