@@ -10,6 +10,13 @@ class PimPage(BasePage, PimLocators):
 
     PAGE_URL = Links.PIM_PAGE
 
+    # def base_write_in_field(self, name, locator):
+    #         field = self.wait.until(EC.element_to_be_clickable(locator))
+    #         field.send_keys(Keys.COMMAND + "a")
+    #         field.send_keys(Keys.BACKSPACE)
+    #         field.send_keys(name)
+    #         return name
+
     def write_employee_name(self, new_name):
         with allure.step(f"'ввод имени работника {new_name}'"):
             field = self.wait.until(EC.element_to_be_clickable(self.EMPLOYEE_NAME_FIELD))
@@ -86,3 +93,30 @@ class PimPage(BasePage, PimLocators):
         else:
             self.wait.until(EC.element_to_be_clickable(self.ADMINISTRATION_UNIT)).click()
             assert self.wait.until(EC.text_to_be_present_in_element(self.SUB_UNIT, "Administration")), "Выбран не тот юнит"
+
+    @allure.step("Нажать кнопку поиска")
+    def submit_button(self):
+        self.wait.until(EC.element_to_be_clickable(self.SEARCH_BUTTON)).click()
+
+    @allure.step("Проверка введнёного айди")
+    def check_id_result(self):
+        text = self.wait.until(EC.element_to_be_clickable(self.ID_RESULT)).text
+        assert text == self.name, "Имя не совпадает"
+
+    def check_first_name_result(self):
+        pass
+
+    def check_last_name_result(self):
+        pass
+
+    def check_job_tittle_result(self):
+        pass
+
+    def check_employment_status_result(self):
+        pass
+
+    def check_sub_unit_result(self):
+        pass
+
+    def check_supervisor_result(self):
+        pass

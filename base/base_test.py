@@ -4,6 +4,8 @@ from pages.login_page import LoginPage
 from pages.dashboard_page import DashboardPage
 from pages.myinfo_page import MyInfoPage
 from pages.admin_page import AdminPage
+from pages.time_page import TimePage
+from pages.pim_page import PimPage
 
 
 class BaseTest:
@@ -14,6 +16,8 @@ class BaseTest:
     dashboard_page: DashboardPage
     myinfo_page: MyInfoPage
     admin_page: AdminPage
+    time_page: TimePage
+    pim_page: PimPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -23,3 +27,5 @@ class BaseTest:
         request.cls.dashboard_page = DashboardPage(driver)
         request.cls.myinfo_page = MyInfoPage(driver)
         request.cls.admin_page = AdminPage(driver)
+        request.cls.pim_page = PimPage(driver)
+        request.cls.time_page = TimePage(driver)

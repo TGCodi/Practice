@@ -72,5 +72,18 @@ class PimLocators:
     RESET_BUTTON = ("xpath", "//button[@type='reset']")
     SEARCH_BUTTON = ("xpath", "//button[@type='submit']")
 
+    ID_RESULT = ("xpath", "(//div[@class='oxd-table-card']/div/div[@style='flex: 1 1 0%;'])[1]/div")
+    FIRST_NAME_RESULT = ("xpath", "(//div[@class='oxd-table-card']/div/div[@style='flex: 1 1 0%;'])[2]/div")
+    LAST_NAME_RESULT = ("xpath", "(//div[@class='oxd-table-card']/div/div[@style='flex: 1 1 0%;'])[3]/div")
+    JOB_TITTLE_RESULT = ("xpath", "(//div[@class='oxd-table-card']/div/div[@style='flex: 1 1 0%;'])[4]/div")
+    EMPLOYEE_STATUS_RESULT = ("xpath", "(//div[@class='oxd-table-card']/div/div[@style='flex: 1 1 0%;'])[5]/div")
+    SUB_UNIT_RESULT = ("xpath", "(//div[@class='oxd-table-card']/div/div[@style='flex: 1 1 0%;'])[6]/div")
+    SUPERVISIOR_RESULT = ("xpath", "(//div[@class='oxd-table-card']/div/div[@style='flex: 1 1 0%;'])[7]/div")
+
+
 class TimeLocators:
-    pass
+
+    EMPLOYEE_NAME_FIELD = ("xpath"), "//input[@placeholder='Type for hints...']"
+
+    AUTOCOMPLETE_RESULT = ("xpath", "//div[@role='option']")
+
