@@ -23,7 +23,7 @@ class TestPimPanel(BaseTest):
 
     @allure.title("проверка ввода не только имени ")
     @allure.severity("medium")
-    @allure.mark.smoke
+    @pytest.mark.smoke
     def test_write_sup_name_id(self):
         self.login_page.open()
         self.login_page.enter_login(self.data.LOGIN)
