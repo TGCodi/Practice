@@ -7,7 +7,7 @@ class TestAdminPanel(BaseTest):
 
     @allure.title("Поиск по никнейму")
     @allure.severity("medium")
-    @pytest.mark.xfail
+    @pytest.mark.smoke
     def test_search_by_name(self):
         self.login_page.open()
         self.login_page.enter_login(self.data.LOGIN)
@@ -39,7 +39,7 @@ class TestAdminPanel(BaseTest):
 
     @allure.title("Поиск по статусу")
     @allure.severity("medium")
-    @pytest.mark.xfail
+    @pytest.mark.smoke
     def test_search_by_status(self):
         self.login_page.open()
         self.login_page.enter_login(self.data.LOGIN)
