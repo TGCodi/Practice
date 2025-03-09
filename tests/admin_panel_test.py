@@ -1,6 +1,6 @@
 import allure
 import pytest
-from Practice.base.base_test import BaseTest
+from base.base_test import BaseTest
 
 @allure.parent_suite("Страница 'Админ'")
 class TestAdminPanel(BaseTest):

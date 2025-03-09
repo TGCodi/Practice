@@ -1,7 +1,7 @@
 import allure
 from Practice.base.base_page import BasePage
 from Practice.config.links import Links
-from Practice.config.locators import LoginPageLocators
+from config.locators import LoginPageLocators
 from selenium.webdriver.support import expected_conditions as EC
 
 class LoginPage(BasePage, LoginPageLocators):

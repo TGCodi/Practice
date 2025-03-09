@@ -1,11 +1,11 @@
 import pytest
-from Practice.config.data import Data
-from Practice.pages.login_page import LoginPage
-from Practice.pages.dashboard_page import DashboardPage
-from Practice.pages.myinfo_page import MyInfoPage
-from Practice.pages.admin_page import AdminPage
-from Practice.pages.time_page import TimePage
-from Practice.pages.pim_page import PimPage
+from config.data import Data
+from pages.login_page import LoginPage
+from pages.dashboard_page import DashboardPage
+from pages.myinfo_page import MyInfoPage
+from pages.admin_page import AdminPage
+from pages.time_page import TimePage
+from pages.pim_page import PimPage
 
 
 class BaseTest:
