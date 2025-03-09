@@ -1,5 +1,85 @@
 [ {
-  "uid" : "27fab5fcdad31dc3",
+  "uid" : "3a74f161bfe5ccfa",
+  "name" : "Смена по роле",
+  "time" : {
+    "start" : 1741529039656,
+    "stop" : 1741529046269,
+    "duration" : 6613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d1dc4dbcba81953",
+  "name" : "Смена фамилии",
+  "time" : {
+    "start" : 1741529072771,
+    "stop" : 1741529081428,
+    "duration" : 8657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af2f7ac75a09ed16",
+  "name" : "Поиск по никнейму",
+  "time" : {
+    "start" : 1741529032251,
+    "stop" : 1741529038837,
+    "duration" : 6586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56339e2cfddffe5b",
+  "name" : "проверка ввода имени",
+  "time" : {
+    "start" : 1741529101241,
+    "stop" : 1741529107640,
+    "duration" : 6399
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b6dd6ce6d7c59708",
+  "name" : "Смена имени",
+  "time" : {
+    "start" : 1741529063288,
+    "stop" : 1741529071979,
+    "duration" : 8691
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3317bb89dad7f97a",
+  "name" : "Смена отчества",
+  "time" : {
+    "start" : 1741529082223,
+    "stop" : 1741529090912,
+    "duration" : 8689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac9584ad30d8272a",
+  "name" : "проверка ввода не только имени ",
+  "time" : {
+    "start" : 1741529108435,
+    "stop" : 1741529114108,
+    "duration" : 5673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "471ef3ed7cbaed8d",
+  "name" : "Смена обязательных полей",
+  "time" : {
+    "start" : 1741529091704,
+    "stop" : 1741529100446,
+    "duration" : 8742
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae754b8e7189fdd5",
   "name" : "Change profile name",
   "time" : {
     "start" : 1740225991408,
@@ -7,5 +87,15 @@
     "duration" : 10528
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d4eb78cf3842ddb",
+  "name" : "Поиск по статусу",
+  "time" : {
+    "start" : 1741529047059,
+    "stop" : 1741529062468,
+    "duration" : 15409
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

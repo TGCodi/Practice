@@ -8,7 +8,7 @@
         "name" : "TestAdminPanel",
         "children" : [ {
           "name" : "Change profile name",
-          "uid" : "27fab5fcdad31dc3",
+          "uid" : "ae754b8e7189fdd5",
           "parentUid" : "65cc2b0194563bd105178697d2f1eac5",
           "status" : "passed",
           "time" : {
@@ -25,6 +25,159 @@
       "uid" : "da6cd7f4463c088e541f1efbafba155a"
     } ],
     "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  }, {
+    "name" : "Страница 'Админ'",
+    "children" : [ {
+      "name" : "admin_panel_test",
+      "children" : [ {
+        "name" : "TestAdminPanel",
+        "children" : [ {
+          "name" : "Поиск по никнейму",
+          "uid" : "af2f7ac75a09ed16",
+          "parentUid" : "12ce711e2cd96b2e2cc73c748291d5b1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1741529032251,
+            "stop" : 1741529038837,
+            "duration" : 6586
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Смена по роле",
+          "uid" : "3a74f161bfe5ccfa",
+          "parentUid" : "12ce711e2cd96b2e2cc73c748291d5b1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1741529039656,
+            "stop" : 1741529046269,
+            "duration" : 6613
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Поиск по статусу",
+          "uid" : "2d4eb78cf3842ddb",
+          "parentUid" : "12ce711e2cd96b2e2cc73c748291d5b1",
+          "status" : "broken",
+          "time" : {
+            "start" : 1741529047059,
+            "stop" : 1741529062468,
+            "duration" : 15409
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "12ce711e2cd96b2e2cc73c748291d5b1"
+      } ],
+      "uid" : "97756359645fe1f13acce46ad3ef8261"
+    } ],
+    "uid" : "6411777c480152a6d6d866ceca9122a8"
+  }, {
+    "name" : "Страница 'Моё инфо'",
+    "children" : [ {
+      "name" : "myinfo_panel_test",
+      "children" : [ {
+        "name" : "TestMyInfoPanel",
+        "children" : [ {
+          "name" : "Смена имени",
+          "uid" : "b6dd6ce6d7c59708",
+          "parentUid" : "935f6954dd45ae7585842fdff527986b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1741529063288,
+            "stop" : 1741529071979,
+            "duration" : 8691
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Смена фамилии",
+          "uid" : "7d1dc4dbcba81953",
+          "parentUid" : "935f6954dd45ae7585842fdff527986b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1741529072771,
+            "stop" : 1741529081428,
+            "duration" : 8657
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Смена отчества",
+          "uid" : "3317bb89dad7f97a",
+          "parentUid" : "935f6954dd45ae7585842fdff527986b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1741529082223,
+            "stop" : 1741529090912,
+            "duration" : 8689
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Смена обязательных полей",
+          "uid" : "471ef3ed7cbaed8d",
+          "parentUid" : "935f6954dd45ae7585842fdff527986b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1741529091704,
+            "stop" : 1741529100446,
+            "duration" : 8742
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "935f6954dd45ae7585842fdff527986b"
+      } ],
+      "uid" : "51b89d841816eaef93c38f8991335065"
+    } ],
+    "uid" : "3a23bb2d31d92a7163fd0dc7226d7a93"
+  }, {
+    "name" : "Страница 'Pim'",
+    "children" : [ {
+      "name" : "pim_panel_test",
+      "children" : [ {
+        "name" : "TestPimPanel",
+        "children" : [ {
+          "name" : "проверка ввода имени",
+          "uid" : "56339e2cfddffe5b",
+          "parentUid" : "01bc4b3549ebf201139f8320a82afb5b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1741529101241,
+            "stop" : 1741529107640,
+            "duration" : 6399
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "проверка ввода не только имени ",
+          "uid" : "ac9584ad30d8272a",
+          "parentUid" : "01bc4b3549ebf201139f8320a82afb5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1741529108435,
+            "stop" : 1741529114108,
+            "duration" : 5673
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "01bc4b3549ebf201139f8320a82afb5b"
+      } ],
+      "uid" : "3e238f4853ba1067f09236c35cfa767e"
+    } ],
+    "uid" : "1978484bb8e5fe9dacfee8cd77372b84"
   } ],
   "name" : "suites"
 }

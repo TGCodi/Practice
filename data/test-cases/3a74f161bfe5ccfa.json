@@ -1,0 +1,339 @@
+{
+  "uid" : "3a74f161bfe5ccfa",
+  "name" : "Смена по роле",
+  "fullName" : "tests.admin_panel_test.TestAdminPanel#test_search_by_role",
+  "historyId" : "38d43a6319fa36f39b2aabb13322140d",
+  "time" : {
+    "start" : 1741529039656,
+    "stop" : 1741529046269,
+    "duration" : 6613
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1741529039655,
+      "stop" : 1741529039655,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1741529038923,
+      "stop" : 1741529039655,
+      "duration" : 732
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
+      "time" : {
+        "start" : 1741529039656,
+        "stop" : 1741529040692,
+        "duration" : 1036
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Ввод логина",
+      "time" : {
+        "start" : 1741529040692,
+        "stop" : 1741529041746,
+        "duration" : 1054
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'Admin'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Ввод пароля",
+      "time" : {
+        "start" : 1741529041746,
+        "stop" : 1741529041814,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'admin123'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Подтвердить вход",
+      "time" : {
+        "start" : 1741529041815,
+        "stop" : 1741529041856,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
+      "time" : {
+        "start" : 1741529041856,
+        "stop" : 1741529042561,
+        "duration" : 705
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "перейти на страницу 'Admin'",
+      "time" : {
+        "start" : 1741529042561,
+        "stop" : 1741529043955,
+        "duration" : 1394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers is opened",
+      "time" : {
+        "start" : 1741529043955,
+        "stop" : 1741529043958,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбор роли",
+      "time" : {
+        "start" : 1741529043958,
+        "stop" : 1741529045052,
+        "duration" : 1094
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Клик по кнопке поиска",
+      "time" : {
+        "start" : 1741529045053,
+        "stop" : 1741529045095,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка валидности выдачи роли",
+      "time" : {
+        "start" : 1741529045096,
+        "stop" : 1741529046129,
+        "duration" : 1033
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c938b5fab3eb1d55",
+      "name" : "Success",
+      "source" : "c938b5fab3eb1d55.png",
+      "type" : "image/png",
+      "size" : 117534
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1741529046270,
+      "stop" : 1741529046326,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Страница 'Админ'"
+  }, {
+    "name" : "severity",
+    "value" : "medium"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "admin_panel_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdminPanel"
+  }, {
+    "name" : "host",
+    "value" : "3393fbd06b47"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.admin_panel_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "72f37e7082574c17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741275623314,
+          "stop" : 1741275629387,
+          "duration" : 6073
+        }
+      }, {
+        "uid" : "206624e749fc217e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740338549390,
+          "stop" : 1740338555402,
+          "duration" : 6012
+        }
+      }, {
+        "uid" : "64005c4987d6406",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740325020590,
+          "stop" : 1740325026609,
+          "duration" : 6019
+        }
+      }, {
+        "uid" : "4a9497c30022f08d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740317144297,
+          "stop" : 1740317150225,
+          "duration" : 5928
+        }
+      }, {
+        "uid" : "3d5ab2ecfa466759",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740316822775,
+          "stop" : 1740316829647,
+          "duration" : 6872
+        }
+      }, {
+        "uid" : "950b5cfa317aef5c",
+        "status" : "broken",
+        "statusDetails" : "TypeError: argument of type 'NoneType' is not iterable",
+        "time" : {
+          "start" : 1740257019320,
+          "stop" : 1740257025995,
+          "duration" : 6675
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "3a74f161bfe5ccfa.json",
+  "parameterValues" : [ ]
+}
