@@ -4,7 +4,7 @@
     "name" : "tests.myinfo_panel_test",
     "children" : [ {
       "name" : "Change profile name",
-      "uid" : "a31ce6393df158a8",
+      "uid" : "5c18b311d658f0ba",
       "parentUid" : "b135793ac15fc25fb4f8ed32c9ba1f37",
       "status" : "passed",
       "time" : {
