@@ -1,100 +1,10 @@
 [ {
-  "uid" : "f0a42f40e0b63c56",
-  "name" : "Смена отчества",
-  "time" : {
-    "start" : 1741275663654,
-    "stop" : 1741275671809,
-    "duration" : 8155
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "891559afef8e8431",
-  "name" : "Поиск по статусу",
-  "time" : {
-    "start" : 1741275630178,
-    "stop" : 1741275645057,
-    "duration" : 14879
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "96dc0abf8da6fb",
-  "name" : "Смена имени",
-  "time" : {
-    "start" : 1741275645880,
-    "stop" : 1741275653961,
-    "duration" : 8081
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e97c524533a68dda",
+  "uid" : "a31ce6393df158a8",
   "name" : "Change profile name",
   "time" : {
     "start" : 1740225991408,
     "stop" : 1740226001936,
     "duration" : 10528
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a2f89fb79e126d2a",
-  "name" : "Смена фамилии",
-  "time" : {
-    "start" : 1741275654754,
-    "stop" : 1741275662860,
-    "duration" : 8106
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "72f37e7082574c17",
-  "name" : "Смена по роле",
-  "time" : {
-    "start" : 1741275623314,
-    "stop" : 1741275629387,
-    "duration" : 6073
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "882ddc4953219be",
-  "name" : "проверка ввода не только имени ",
-  "time" : {
-    "start" : 1741275688330,
-    "stop" : 1741275693471,
-    "duration" : 5141
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c5a63956d6a47494",
-  "name" : "Смена обязательных полей",
-  "time" : {
-    "start" : 1741275672603,
-    "stop" : 1741275680848,
-    "duration" : 8245
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c8f30da688bd976",
-  "name" : "проверка ввода имени",
-  "time" : {
-    "start" : 1741275681644,
-    "stop" : 1741275687531,
-    "duration" : 5887
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "125507a184d9f0b9",
-  "name" : "Поиск по никнейму",
-  "time" : {
-    "start" : 1741275616362,
-    "stop" : 1741275622487,
-    "duration" : 6125
   },
   "status" : "passed",
   "severity" : "normal"

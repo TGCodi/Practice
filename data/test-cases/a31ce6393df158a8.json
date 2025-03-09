@@ -1,5 +1,5 @@
 {
-  "uid" : "e97c524533a68dda",
+  "uid" : "a31ce6393df158a8",
   "name" : "Change profile name",
   "fullName" : "tests.myinfo_panel_test.TestAdminPanel#test_change_profile_name",
   "historyId" : "b7f77c84e24a0b6dd0851fd9a379c159",
@@ -202,9 +202,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "6da33cc98ae67ee9",
+      "uid" : "5784935b60864742",
       "name" : "Success",
-      "source" : "6da33cc98ae67ee9.png",
+      "source" : "5784935b60864742.png",
       "type" : "image/png",
       "size" : 166945
     } ],
@@ -280,11 +280,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 8,
+        "passed" : 9,
         "unknown" : 0,
-        "total" : 8
+        "total" : 9
       },
       "items" : [ {
+        "uid" : "e97c524533a68dda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740225991408,
+          "stop" : 1740226001936,
+          "duration" : 10528
+        }
+      }, {
         "uid" : "df0d13c33e839820",
         "status" : "passed",
         "time" : {
@@ -344,6 +352,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "e97c524533a68dda.json",
+  "source" : "a31ce6393df158a8.json",
   "parameterValues" : [ ]
 }

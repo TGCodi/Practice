@@ -1,43 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
-      "children" : [ {
-        "name" : "Поиск по статусу",
-        "uid" : "891559afef8e8431",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1741275630178,
-          "stop" : 1741275645057,
-          "duration" : 14879
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
-    }, {
-      "name" : "AttributeError: 'PimPage' object has no attribute 'name'",
-      "children" : [ {
-        "name" : "проверка ввода имени",
-        "uid" : "1c8f30da688bd976",
-        "parentUid" : "ed5a1bd10e8446e16adf8d752dec58eb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1741275681644,
-          "stop" : 1741275687531,
-          "duration" : 5887
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ed5a1bd10e8446e16adf8d752dec58eb"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
