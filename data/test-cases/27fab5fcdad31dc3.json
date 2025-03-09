@@ -1,5 +1,5 @@
 {
-  "uid" : "5c18b311d658f0ba",
+  "uid" : "27fab5fcdad31dc3",
   "name" : "Change profile name",
   "fullName" : "tests.myinfo_panel_test.TestAdminPanel#test_change_profile_name",
   "historyId" : "b7f77c84e24a0b6dd0851fd9a379c159",
@@ -22,9 +22,9 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "stepsCount" : 0,
     "hasContent" : false,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   }, {
     "name" : "setup",
@@ -37,9 +37,9 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "stepsCount" : 0,
     "hasContent" : false,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   } ],
   "testStage" : {
@@ -55,9 +55,9 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Enter login",
@@ -73,9 +73,9 @@
         "name" : "login",
         "value" : "'Admin'"
       } ],
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : true,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Enter password",
@@ -91,9 +91,9 @@
         "name" : "password",
         "value" : "'admin123'"
       } ],
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : true,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Click submit button",
@@ -106,9 +106,9 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
@@ -121,9 +121,9 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Click on 'My Info' link",
@@ -136,9 +136,9 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7 is opened",
@@ -151,9 +151,9 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Change name on 'Test 99'",
@@ -166,9 +166,9 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Save changes",
@@ -181,9 +181,9 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Changes has been saved successfuly",
@@ -196,22 +196,22 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
       "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "f0a3e70d4f62f6b",
+      "uid" : "f0ee79afb1dacbc8",
       "name" : "Success",
-      "source" : "f0a3e70d4f62f6b.png",
+      "source" : "f0ee79afb1dacbc8.png",
       "type" : "image/png",
       "size" : 166945
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
     "stepsCount" : 10,
     "hasContent" : true,
+    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
@@ -225,9 +225,9 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "stepsCount" : 0,
     "hasContent" : false,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
@@ -280,11 +280,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 10,
+        "passed" : 11,
         "unknown" : 0,
-        "total" : 10
+        "total" : 11
       },
       "items" : [ {
+        "uid" : "5c18b311d658f0ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740225991408,
+          "stop" : 1740226001936,
+          "duration" : 10528
+        }
+      }, {
         "uid" : "a31ce6393df158a8",
         "status" : "passed",
         "time" : {
@@ -360,6 +368,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "5c18b311d658f0ba.json",
+  "source" : "27fab5fcdad31dc3.json",
   "parameterValues" : [ ]
 }

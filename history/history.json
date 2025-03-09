@@ -349,11 +349,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "27fab5fcdad31dc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740225991408,
+        "stop" : 1740226001936,
+        "duration" : 10528
+      }
+    }, {
       "uid" : "5c18b311d658f0ba",
       "status" : "passed",
       "time" : {

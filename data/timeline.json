@@ -6,7 +6,7 @@
       "name" : "1-MainThread",
       "children" : [ {
         "name" : "Change profile name",
-        "uid" : "5c18b311d658f0ba",
+        "uid" : "27fab5fcdad31dc3",
         "parentUid" : "bd618a1c63caca534e06be197901b9ef",
         "status" : "passed",
         "time" : {
