@@ -1,9 +1,9 @@
 import allure
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import Keys
-from Practice.base.base_page import BasePage
-from Practice.config.links import Links
-from Practice.config.locators import PimLocators
+from base.base_page import BasePage
+from config.links import Links
+from config.locators import PimLocators
 
 
 class PimPage(BasePage, PimLocators):
