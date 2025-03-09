@@ -1,8 +1,8 @@
 import allure
 from selenium.webdriver import Keys
-from base.base_page import BasePage
-from config.links import Links
-from config.locators import MyInfoPageLocators
+from Practice.base.base_page import BasePage
+from Practice.config.links import Links
+from Practice.config.locators import MyInfoPageLocators
 from selenium.webdriver.support import expected_conditions as EC
 
 

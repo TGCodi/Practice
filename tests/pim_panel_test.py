@@ -1,6 +1,6 @@
 import allure
 import pytest
-from base.base_test import BaseTest
+from Practice.base.base_test import BaseTest
 
 @allure.parent_suite("Страница 'Pim'")
 class TestPimPanel(BaseTest):
